@@ -1,0 +1,34 @@
+{
+  "name": "cv",
+  "version": "0.1.0",
+  "description": "just CV",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "author": "Alex Bu",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "5.56.0",
+    "@typescript-eslint/parser": "5.56.0",
+    "css-loader": "6.7.3",
+    "eslint": "7.32.0",
+    "eslint-config-preact": "1.3.0",
+    "eslint-plugin-preact": "0.1.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "html-webpack-plugin": "^5.5.0",
+    "node-sass": "8.0.0",
+    "preact": "10.13.2",
+    "preact-render-to-string": "6.0.0",
+    "sass-loader": "13.2.1",
+    "style-loader": "3.3.2",
+    "ts-loader": "9.4.2",
+    "typescript": "5.0.2",
+    "webpack": "5.76.3",
+    "webpack-cli": "5.0.1",
+    "webpack-dev-server": "4.13.1"
+  }
+}
