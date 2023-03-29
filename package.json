@@ -32,6 +32,7 @@
     "webpack-dev-server": "4.13.1"
   },
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "cross-env": "^7.0.3"
   }
 }
