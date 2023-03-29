@@ -1,0 +1,47 @@
+.jobExperience {
+  padding: 10px;
+  border: 1px solid rgba(0,0,0,0.1);
+  border-radius: 4px;
+  background-color: #fff;
+  margin-bottom: 16px;
+}
+
+.position {
+  font-size: 18px;
+  margin: 0 0 5px;
+}
+
+.companyName {
+  display: inline-block;
+  font-size: 16px;
+  margin: 0;
+}
+
+.workingPeriod,
+.country {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.country {
+  margin-bottom: 8px;
+}
+
+.descriptionText {
+
+}
+
+.keySkills {
+  list-style: none;
+  padding: 0;
+
+  li {
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+    padding: 2px;
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    margin-left: 2px;
+  }
+}

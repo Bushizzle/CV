@@ -1,5 +1,7 @@
 .layout {
-
+  font-family: Arial, sans-serif;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .section {
@@ -14,6 +16,7 @@
 
 .article {
   flex: 4;
+  margin: 10px;
   &:first-child {
     flex: 1;
   }

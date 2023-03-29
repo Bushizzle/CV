@@ -1,0 +1,12 @@
+.title {
+  display: block;
+  margin: 10px 0;
+  font-size: 21px;
+  font-weight: bold;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+.text {
+
+}

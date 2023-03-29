@@ -1,38 +1,17 @@
 import { FunctionComponent } from 'preact';
+import { UserContacts } from '../types';
 import styles from './Contacts.scss';
 
 interface ContactsProps {
-    telegram: string;
-    whatsapp: string;
-    email: string;
-    linkedin: string;
-    github: string;
+    contacts: UserContacts;
 }
 
-export const Contacts: FunctionComponent<ContactsProps> = ({
-   telegram,
-   whatsapp,
-   email,
-   linkedin,
-   github,
-}) => {
+export const Contacts: FunctionComponent<ContactsProps> = ({ contacts }) => {
     return (
         <div className={styles.contacts}>
-            <p>
-                <strong>Telegram:</strong> {telegram}
-            </p>
-            <p>
-                <strong>WhatsApp:</strong> {whatsapp}
-            </p>
-            <p>
-                <strong>Email:</strong> {email}
-            </p>
-            <p>
-                <strong>LinkedIn:</strong> {linkedin}
-            </p>
-            <p>
-                <strong>GitHub:</strong> {github}
-            </p>
+            {
+                Object.entries(contacts).map(([name, value]) => <p>{`${name}: ${value}`}</p>)
+            }
         </div>
     );
 };

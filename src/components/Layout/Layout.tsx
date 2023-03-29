@@ -1,63 +1,46 @@
 import { FunctionComponent } from 'preact';
-import styles from './Layout.scss';
-
+import type { UserData } from '../types';
 import { Photo } from '../Photo';
 import { Summary } from '../Summary';
-import { Title } from '../Title';
-import { Skill } from '../Skill';
+import { Skills } from '../Skills';
 import { JobExperience } from '../JobExperience/JobExperience';
 import { Contacts } from '../Contacts';
+import styles from './Layout.scss';
 
-export const Layout: FunctionComponent = () => {
-    return (
+interface LayoutProps {
+    data: UserData | null;
+    print: boolean;
+}
+
+export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
+    return !data ? <p>Loading...</p> : (
         <div className={styles.layout}>
             <div className={styles.section}>
                 <div className={styles.article}>
                     <Photo
-                        imageUrl="https://media.licdn.com/dms/image/D5635AQGGA1FQGPtixg/profile-framedphoto-shrink_400_400/0/1677956808158?e=1680562800&v=beta&t=LqgtzP6jXqxrxg6Of231jZbRjKs59vFVAyRKxAHW00s"
-                        githubUrl=""
+                        imageUrl={data.photo}
+                        githubUrl={data.contacts.GitHub}
+                        print={print}
                     />
                 </div>
                 <div className={styles.article}>
-                    <Summary/>
+                    <Summary text={data.summary} />
+                </div>
+            </div>
+            <div className={styles.section}>
+                <div className={styles.article}>
+                    <Skills skills={data.skills}/>
+                </div>
+                <div className={styles.article}>
+                    <JobExperience experiences={data.experiences}/>
                 </div>
             </div>
             <div className={styles.section}>
                 <div className={styles.article}>
-                    <Skill name="Javascript" progress={100}/>
-                    <Skill name="Typescript" progress={100}/>
-                    <Skill name="HTML" progress={100}/>
-                    <Skill name="CSS" progress={100}/>
-                    <Skill name="AWS" progress={80}/>
+                    {/*preserved for certificates section*/}
                 </div>
                 <div className={styles.article}>
-                    <JobExperience
-                        companyName="Awesome Company 1"
-                        workingPeriod="2020 - Present"
-                        country="USA"
-                        description="Working as a frontend developer."
-                        keySkills={['React', 'Preact', 'TypeScript']}
-                    />
-                    <JobExperience
-                        companyName="Awesome Company 2"
-                        workingPeriod="2020 - Present"
-                        country="USA"
-                        description="Working as a frontend developer."
-                        keySkills={['React', 'Preact', 'TypeScript']}
-                    />
-                </div>
-            </div>
-            <div className={styles.section}>
-                <div className={styles.article}>4</div>
-                <div className={styles.article}>
-                    <Title>Contacts</Title>
-                    <Contacts
-                        telegram="+1234567890"
-                        whatsapp="+0987654321"
-                        email="john.doe@example.com"
-                        linkedin="https://www.linkedin.com/in/johndoe"
-                        github="https://github.com/johndoe"
-                    />
+                    <Contacts contacts={data.contacts} />
                 </div>
             </div>
         </div>

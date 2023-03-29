@@ -18,11 +18,14 @@
   justify-content: space-between;
   width: 100%;
   margin-top: 8px;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
 }
 
 .githubBtn,
 .pdfBtn {
-  background-color: #4b4bff;
+  background-color: rgba(75,75,255,.9);
   border: none;
   border-radius: 4px;
   color: #ffffff;

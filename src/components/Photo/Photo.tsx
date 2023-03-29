@@ -2,26 +2,27 @@ import { FunctionComponent } from 'preact';
 import styles from './Photo.scss';
 
 interface PhotoProps {
+    print: boolean;
     imageUrl: string;
-    githubUrl: string;
+    githubUrl?: string;
 }
 
-export const Photo: FunctionComponent<PhotoProps> = ({ imageUrl, githubUrl }) => {
+export const Photo: FunctionComponent<PhotoProps> = ({ imageUrl, githubUrl, print }) => {
     const saveAsPDF = () => {
-        alert('Saving page as PDF functionality not implemented.');
+        window.print();
     };
 
     return (
         <div className={styles.photoContainer}>
             <img src={imageUrl} alt="Profile" className={styles.photo} />
-            <div className={styles.buttons}>
-                <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                    <button className={styles.githubBtn}>GitHub</button>
-                </a>
+            {!print ? <div className={styles.buttons}>
+                {githubUrl && <a href={`${githubUrl}/CV`} target="_blank" rel="noopener noreferrer">
+                    <button className={styles.githubBtn}>Source</button>
+                </a>}
                 <button className={styles.pdfBtn} onClick={saveAsPDF}>
-                    Save as PDF
+                    PDF
                 </button>
-            </div>
+            </div> : null}
         </div>
     );
 };
