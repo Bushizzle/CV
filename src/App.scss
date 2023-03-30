@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  background-color: var(--background-color);
+  //transition: color ease .5s, background-color ease var(--theme-animation-time);
+}
+
+:root {
+  --theme-animation-time: .3s;
+  --background-light: #c8c7c763;
+  --background-dark: #212a2e;
+  --text-light: #121416d8;
+  --text-dark: #efe8e8;
+  --border-light: rgba(0,0,0,.1);
+  --border-dark: rgba(255,255,255,.1);
+}
+
+body[data-theme='light'] {
+  --background-color: var(--background-light);
+  --text-color: var(--text-light);
+  --border-color: var(--border-light);
+}
+
+body[data-theme='dark'] {
+  --background-color: var(--background-dark);
+  --text-color: var(--text-dark);
+  --border-color: var(--border-dark);
+}

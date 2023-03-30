@@ -5,9 +5,9 @@ interface SummaryProps {
 }
 export const Summary: FunctionComponent<SummaryProps> = ({ text }) => {
     return (
-        <>
+        <div className={styles.summary}>
             <span className={styles.title}>Summary</span>
             <span className={styles.text}>{text}</span>
-        </>
+        </div>
     );
 }

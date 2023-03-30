@@ -1,8 +1,7 @@
 .jobExperience {
   padding: 10px;
-  border: 1px solid rgba(0,0,0,0.1);
+  border: 1px solid var(--border-color);
   border-radius: 4px;
-  background-color: #fff;
   margin-bottom: 16px;
 }
 
@@ -37,11 +36,10 @@
 
   li {
     font-size: 12px;
-    font-weight: bold;
     display: inline-block;
-    padding: 2px;
-    border: 1px solid #ebebeb;
+    padding: 3px;
+    border: 1px solid var(--border-color);
     border-radius: 4px;
-    margin-left: 2px;
+    margin: 4px 2px;
   }
 }

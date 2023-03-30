@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'preact';
 import type { UserData } from '../types';
-import { Photo } from '../Photo';
+import { DayNightThemeToggle } from '../DayNightThemeToggle';
+import { Person } from '../Person';
 import { Summary } from '../Summary';
 import { Skills } from '../Skills';
 import { JobExperience } from '../JobExperience/JobExperience';
@@ -13,11 +14,12 @@ interface LayoutProps {
 }
 
 export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
-    return !data ? <p>Loading...</p> : (
+    return !data ? null : (
         <div className={styles.layout}>
+            <DayNightThemeToggle />
             <div className={styles.section}>
                 <div className={styles.article}>
-                    <Photo
+                    <Person
                         imageUrl={data.photo}
                         githubUrl={data.contacts.GitHub}
                         print={print}

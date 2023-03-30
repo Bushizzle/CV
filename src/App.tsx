@@ -1,11 +1,19 @@
 import { FunctionComponent } from 'preact';
 import { Layout } from './components/Layout';
 import { useState, useEffect } from 'preact/compat';
+import { updateTheme } from './utils';
+import { THEMES } from './constants';
+import './App.scss';
 
-export const App: FunctionComponent = () => {
+interface AppProps {
+    theme: ValueOf<typeof THEMES>;
+}
+
+export const App: FunctionComponent<AppProps> = ({ theme }) => {
     const [ data, setData ] = useState(null);
     const [ print, setPrint ] = useState(false);
     useEffect(() => {
+        updateTheme(theme);
         window.addEventListener("beforeprint", () => setPrint(true));
         window.addEventListener("afterprint", () => setPrint(false));
     }, []);

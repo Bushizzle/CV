@@ -1,5 +1,5 @@
 import { FunctionComponent } from 'preact';
-import styles from './Photo.scss';
+import styles from './Person.scss';
 
 interface PhotoProps {
     print: boolean;
@@ -7,7 +7,7 @@ interface PhotoProps {
     githubUrl?: string;
 }
 
-export const Photo: FunctionComponent<PhotoProps> = ({ imageUrl, githubUrl, print }) => {
+export const Person: FunctionComponent<PhotoProps> = ({ imageUrl, githubUrl, print }) => {
     const saveAsPDF = () => {
         window.print();
     };
