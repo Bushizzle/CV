@@ -24,6 +24,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
                         githubUrl={data.contacts.GitHub}
                         print={print}
                     />
+                    <Contacts contacts={data.contacts} />
                 </div>
                 <div className={styles.article}>
                     <Summary text={data.summary} />
@@ -35,14 +36,6 @@ export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
                 </div>
                 <div className={styles.article}>
                     <JobExperience experiences={data.experiences}/>
-                </div>
-            </div>
-            <div className={styles.section}>
-                <div className={styles.article}>
-                    {/*preserved for certificates section*/}
-                </div>
-                <div className={styles.article}>
-                    <Contacts contacts={data.contacts} />
                 </div>
             </div>
         </div>
