@@ -1,9 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
 
 html, body {
   margin: 0;
   background-color: var(--background-color);
-  //transition: color ease .5s, background-color ease var(--theme-animation-time);
+}
+.animated {
+  transition: color ease var(--theme-animation-time), background-color ease var(--theme-animation-time);
 }
 
 :root {
@@ -18,7 +21,7 @@ html, body {
   --text-color-dark-4: #F0F6FC;
   --text-color-dark-5: #58A6FF;
 
-  --text-color-light-1: #efe8e8;
+  --text-color-light-1: #0E1117;
 
   --border-color-light-1: #21262D; /////
   --border-color-light-2: #21262D; /////

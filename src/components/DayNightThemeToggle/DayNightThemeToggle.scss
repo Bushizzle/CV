@@ -1,40 +1,78 @@
-.switch {
+:root {
+  --toggle-width: 50px;
+  --toggle-offset: 2px;
+  --toggle-animation-timing: .4s;
+}
+
+.container {
   position: fixed;
-  right: 30px;
-  top: 30px;
-
-  height: 20px;
-  width: 50px;
-  border: 1px solid var(--border-color);
-  background-color: var(--background-color);
-  border-radius: 10px;
-
-  overflow: hidden;
+  right: 15px;
+  top: 15px;
   cursor: pointer;
+  overflow: hidden;
+  input {
+    display: none;
+  }
+  .switch {
+    width: var(--toggle-width);
+    height: calc(var(--toggle-width)/2);
+    border-radius: calc(var(--toggle-width)/2);
+    transition: all var(--toggle-animation-timing) ease-in-out;
+    display: block;
+    position: relative;
+    border: 1px solid var(--text-color-1);
+    overflow: hidden;
+  }
+  .switch:before {
+    content: '';
+    display: block;
+    position: absolute;
+    transition: all var(--toggle-animation-timing) ease-in-out;
+    top: var(--toggle-offset);
+    left: var(--toggle-offset);
+    right: auto;
+    width: calc(var(--toggle-width)/2 - var(--toggle-offset) * 2);
+    height: calc(var(--toggle-width)/2 - var(--toggle-offset) * 2);
+    border-radius: calc(var(--toggle-width)/4);
+    background: var(--text-color-1);
+  }
+  input:checked + .switch:before {
+    animation: blob var(--toggle-animation-timing) ease-in-out;
+    left: calc(var(--toggle-width) - var(--toggle-width)/2 + var(--toggle-offset));
+  }
+  input:not(:checked) + .switch:before {
+    animation: blob2 var(--toggle-animation-timing) ease-in-out;
+  }
 }
 
-.button {
-  position: absolute;
-  z-index: 2;
-  left: var(--switch-offset);
-  top: 0;
-  transition: left ease var(--theme-animation-time), background-color ease var(--theme-animation-time);
-  width: 20px;
-  height: 20px;
-  background-color: var(--text-color-1);
-  border-radius: 10px;
+@keyframes blob {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.42, .84);
+  }
 }
+// trick for reverting animation on element for backward animation
+@keyframes blob2 {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.42, .84);
+  }
+}
+
+
 
 body[data-theme='light'] {
-  --switch-offset: 0;
-  --moon-left: -10px;
+  --moon-left: -15px;
   --sun-right: 4px;
 }
 
 body[data-theme='dark'] {
-  --switch-offset: 30px;
   --moon-left: 5px;
-  --sun-right: -10px;
+  --sun-right: -15px;
 }
 
 // Beautiful sun/moon icons from https://css.gg/
@@ -47,10 +85,11 @@ body[data-theme='dark'] {
 }
 .moon {
   position: absolute;
-  top: 6px;
-  left: var(--moon-left);
+  top: 8px;
+  right: var(--moon-left);
   transform: rotate(-135deg);
-  transition: left ease var(--theme-animation-time);
+  transition: right ease var(--theme-animation-time);
+  transition-delay: .1s;
   width: 10px;
   height: 10px;
   overflow: hidden;
@@ -73,9 +112,10 @@ body[data-theme='dark'] {
 .sun {
   box-sizing: border-box;
   position: absolute;
-  top: 4px;
-  right: var(--sun-right);
-  transition: right ease var(--theme-animation-time);
+  top: 7px;
+  left: var(--sun-right);
+  transition: left ease var(--theme-animation-time);
+  transition-delay: .1s;
   display: block;
   width: 12px;
   height: 12px;
