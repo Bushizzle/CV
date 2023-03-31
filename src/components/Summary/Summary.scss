@@ -3,7 +3,10 @@
 
   svg {
     display: block;
-    margin: 64px auto 40px;
+    margin: 64px auto;
+    @media screen and (max-width: 1000px) {
+      display: none;
+    }
   }
 }
 
@@ -15,9 +18,10 @@
     display: none;
   }
 }
+
 .title {
   display: block;
-  margin-bottom: 12px;
+  margin: 40px 0 12px;
   color: var(--text-color-4);
   font-size: 20px;
   line-height: 30px;

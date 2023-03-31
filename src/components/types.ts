@@ -13,7 +13,7 @@ export type UserExperience = {
 };
 
 export type UserContacts = {
-    WhatsApp?: string;
+    Tel?: string;
     Telegram?: string;
     Email?: string;
     LinkedIn?: string;

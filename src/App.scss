@@ -15,6 +15,7 @@ html, body {
   --background-light: #c8c7c763;
   --background-dark: #0E1117;
 
+  --text-color-pure-white: #fff;
   --text-color-dark-1: #E9E9E9;
   --text-color-dark-2: #ADB6C0;
   --text-color-dark-3: #8B949E;
@@ -23,6 +24,7 @@ html, body {
 
   --text-color-light-1: #0E1117;
 
+  --text-color-pure-black: #000;
   --border-color-light-1: #21262D; /////
   --border-color-light-2: #21262D; /////
   --border-color-dark-1: #21262D;
@@ -31,6 +33,7 @@ html, body {
 
 body[data-theme='light'] {
   --background-color: var(--background-light);
+  --text-color-pure: var(--text-color-pure-black);
   --text-color-1: var(--text-color-light-1);
 
   --border-color-1: var(--border-color-light-1);
@@ -39,6 +42,7 @@ body[data-theme='light'] {
 
 body[data-theme='dark'] {
   --background-color: var(--background-dark);
+  --text-color-pure: var(--text-color-pure-white);
   --text-color-1: var(--text-color-dark-1);
   --text-color-2: var(--text-color-dark-2);
   --text-color-3: var(--text-color-dark-3);
