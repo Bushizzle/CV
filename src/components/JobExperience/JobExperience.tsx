@@ -2,12 +2,14 @@ import { FunctionComponent } from 'preact';
 import { JobExperienceItem } from './JobExperienceItem';
 import { UserExperience } from '../types';
 
+import style from './JobExperience.scss';
+
 interface JobExperienceProps {
     experiences: UserExperience[];
 }
 
 export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experiences }) => {
-    return (<>
+    return (<div className={style.experience}>
         {
             experiences.map(({ company, position, dates, country, description, skills  }) => <JobExperienceItem
                 companyName={company}
@@ -18,5 +20,5 @@ export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experienc
                 keySkills={skills}
             />)
         }
-    </>);
+    </div>);
 };

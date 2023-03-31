@@ -1,6 +1,6 @@
 {
-  "photo": "https://media.licdn.com/dms/image/D5635AQGGA1FQGPtixg/profile-framedphoto-shrink_400_400/0/1677956808158?e=1680562800&v=beta&t=LqgtzP6jXqxrxg6Of231jZbRjKs59vFVAyRKxAHW00s",
-  "name": "Aleksandr Bushmanov",
+  "photo": "assets/photo-min.png",
+  "name": "Alex Bushmanov",
   "summary": "Dedicated and passionate Frontend Developer with 8 years of hands-on experience in crafting visually stunning, high-performance, and user-friendly web applications. Adept in JavaScript, with a strong command of modern frameworks and libraries such as React, Angular, and Vue.js. Proven ability to collaborate effectively with cross-functional teams, consistently delivering innovative and scalable solutions that exceed client expectations. Committed to staying up-to-date with the latest industry trends and best practices to drive continuous improvement and growth.",
   "skills": [
     {
@@ -159,15 +159,13 @@
       "dates": "Nov 2020 - Jun 2021",
       "description": "At KMS Lighthouse, I was responsible for developing new product features while managing a team of front-end and back-end developers. In addition, I took charge of improving communication processes within and between teams and with the business. I also played a key role in providing support for legacy code, ensuring that it was maintained and updated as needed. By doing so, I was able to ensure that the company's products were of the highest quality and met the needs of both the customers and the stakeholders.",
       "skills": [
-        "Front-end Engineering",
-        "Front-end Coding",
-        "Front-End Development",
-        "Teamwork",
-        "Figma (Software)",
+        "Figma",
         "Git",
         "React",
         "Typescript",
-        "SCS"
+        "SCS",
+        "Project Management",
+        "Jira"
       ]
     },
     {
@@ -177,10 +175,6 @@
       "dates": "Feb 2019 - Nov 2020",
       "description": "At Distillery, I was a team leader responsible for migrating clients' websites to new technology stacks. In this role, I led a development team that included front-end, back-end, QA, and manager roles. Additionally, I was responsible for improving the functionality of the company's internal tools, ensuring that they were up-to-date and effective. Through my work, I was able to create a positive impact on the company's clients, as well as on the company's employees. Furthermore, I conducted interviews for Frontend Engineers in both Russian and English, which allowed me to find and attract top talent from around the world. Overall, I played an instrumental role in improving the company's technical capabilities and strengthening its position in the market.",
       "skills": [
-        "Front-end Engineering",
-        "Front-end Coding",
-        "Front-End Development",
-        "Teamwork",
         "Git",
         "React",
         "NextJS",
@@ -193,7 +187,7 @@
         "CSS",
         "HTML",
         "Websockets",
-        "Управление проектами",
+        "Зкщоусе Ьфтфпуьуте",
         "JavaScript",
         "ReactJS",
         "NodeJS",
@@ -213,9 +207,6 @@
       "dates": "Jun 2016 - Dec 2018",
       "description": "During my work, I was tasked with creating a large application with the primary goal of constructing a roof using a variety of materials. To accomplish this, I utilized both client and server-side technologies. The application allowed users to create new materials or use existing ones, generate roof drawings, calculate the required quantity and cost of materials, and even place an order. By implementing these features, I was able to provide users with a comprehensive solution that helped them build their ideal roofs while also making the process more efficient and cost-effective.",
       "skills": [
-        "Front-end Engineering",
-        "Front-end Coding",
-        "Front-End Development",
         "Git",
         "CSS",
         "HTML",
@@ -236,9 +227,6 @@
       "dates": "Jul 2014 - Nov 2015",
       "description": "As part of my daily work, I was responsible for breathing life into a designer's vision by using HTML, CSS, and JavaScript to implement responsive design for mobile sites. I was also tasked with reviewing pull requests from other developers and testers, and performing refactoring to improve the codebase. Additionally, I evaluated projects and planned tasks to ensure that all work was completed efficiently and effectively. Despite the challenges that came with the job, I remained dedicated and committed to delivering the best possible results, ultimately contributing to the success of the projects I was involved in.",
       "skills": [
-        "Front-end Engineering",
-        "Front-end Coding",
-        "Front-End Development",
         "Git",
         "SCSS",
         "jQuery",
@@ -258,9 +246,6 @@
       "dates": "Jan 2012 - Jun 2014",
       "description": "In 2012, I graduated from university, having worked as a photographer, journalist, and print advertising specialist during my studies. After graduation, I continued to work as an interior photographer while also beginning to study C++ as I was eager to explore programming. After a few months, I unexpectedly received an opportunity to complete someone else's project - a simple static site for a company dealing with patents. This is where I first encountered HTML and began to delve into the world of web development.\n\nOver the next two years, I focused on mastering HTML, CSS, and vanilla Javascript as I worked remotely and searched for orders on freelancer websites. By the beginning of 2013, I had secured a large permanent customer from Moscow, with whom I worked exclusively for some time. However, in 2014, I decided to seek out a position in a larger company where I could work alongside more experienced developers and expand my knowledge further. Despite the challenges and setbacks that inevitably arise in any field, I remained committed to my passion for programming, constantly striving to improve my skills and deliver the best possible results.",
       "skills": [
-        "Front-end Engineering",
-        "Front-end Coding",
-        "Front-End Development",
         "Git",
         "CSS",
         "HTML",

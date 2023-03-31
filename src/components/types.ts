@@ -18,6 +18,7 @@ export type UserContacts = {
     Email?: string;
     LinkedIn?: string;
     GitHub?: string;
+    Facebook?: string;
 };
 
 export type UserData = {

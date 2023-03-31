@@ -1,6 +1,6 @@
 {
-  "photo": "https://media.licdn.com/dms/image/D5635AQGGA1FQGPtixg/profile-framedphoto-shrink_400_400/0/1677956808158?e=1680562800&v=beta&t=LqgtzP6jXqxrxg6Of231jZbRjKs59vFVAyRKxAHW00s",
-  "name": "Aleksandr Bushmanov",
+  "photo": "assets/photo-min.png",
+  "name": "Alex Bushmanov",
   "summary": "Dedicated and passionate Frontend Developer with 8 years of hands-on experience in crafting visually stunning, high-performance, and user-friendly web applications. Adept in JavaScript, with a strong command of modern frameworks and libraries such as React, Angular, and Vue.js. Proven ability to collaborate effectively with cross-functional teams, consistently delivering innovative and scalable solutions that exceed client expectations. Committed to staying up-to-date with the latest industry trends and best practices to drive continuous improvement and growth.",
   "skills": [
     {
@@ -258,6 +258,7 @@
     "Email": "4lex.bu@gmail.com",
     "Telegram": "@bushizzle",
     "LinkedIn": "https://www.linkedin.com/in/a-bu/",
-    "GitHub": "https://github.com/Bushizzle"
+    "GitHub": "https://github.com/Bushizzle",
+    "Facebook": "https://www.facebook.com/profile.php?id=100008326755935"
   }
 }

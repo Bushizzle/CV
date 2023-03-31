@@ -25,16 +25,10 @@ export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
                         print={print}
                     />
                     <Contacts contacts={data.contacts} />
-                </div>
-                <div className={styles.article}>
-                    <Summary text={data.summary} />
-                </div>
-            </div>
-            <div className={styles.section}>
-                <div className={styles.article}>
                     <Skills skills={data.skills}/>
                 </div>
                 <div className={styles.article}>
+                    <Summary title={data.name} text={data.summary} />
                     <JobExperience experiences={data.experiences}/>
                 </div>
             </div>

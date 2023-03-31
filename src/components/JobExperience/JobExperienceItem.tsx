@@ -20,12 +20,8 @@ export const JobExperienceItem: FunctionComponent<JobExperienceProps> = ({
  }) => {
     return (
         <div className={styles.jobExperience}>
-            <h2 className={styles.position}>{position}</h2>
-            <div>
-                <span className={styles.companyName}>{companyName}</span>
-                <span className={styles.country}>{` (${country})`}</span>
-                <span className={styles.workingPeriod}>{workingPeriod}</span>
-            </div>
+            <h2 className={styles.title}>{position}</h2>
+            <h3 className={styles.subtitle}>{`${companyName} (${country}) ${workingPeriod}`}</h3>
 
             <div className={styles.descriptionText}>{description}</div>
             <ul className={styles.keySkills}>
