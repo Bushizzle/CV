@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'preact';
 import styles from './JobExperienceItem.scss';
+import { JobExperienceSkill } from './JobExperienceSkill';
 
 interface JobExperienceProps {
     companyName: string;
@@ -25,8 +26,8 @@ export const JobExperienceItem: FunctionComponent<JobExperienceProps> = ({
 
             <div className={styles.descriptionText}>{description}</div>
             <ul className={styles.keySkills}>
-                {keySkills.map((skill, index) => (
-                    <li key={index}>{skill}</li>
+                {keySkills.map(skill => (
+                    <JobExperienceSkill name={skill} />
                 ))}
             </ul>
         </div>
