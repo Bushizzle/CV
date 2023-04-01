@@ -1,22 +1,24 @@
 import { FunctionComponent } from 'preact';
 import type { UserData } from '../types';
-import { DayNightThemeToggle } from '../DayNightThemeToggle';
+import { ThemeToggle } from '../ThemeToggle';
 import { Person } from '../Person';
 import { Summary } from '../Summary';
 import { Skills } from '../Skills';
 import { JobExperience } from '../JobExperience/JobExperience';
 import { Contacts } from '../Contacts';
+import { THEMES } from '../ThemeToggle/constants';
 import styles from './Layout.scss';
 
 interface LayoutProps {
     data: UserData | null;
+    theme: ValueOf<typeof THEMES>;
     print: boolean;
 }
 
-export const Layout: FunctionComponent<LayoutProps> = ({ data, print }) => {
+export const Layout: FunctionComponent<LayoutProps> = ({ data, theme, print }) => {
     return !data ? null : (
         <div className={styles.layout}>
-            <DayNightThemeToggle />
+            <ThemeToggle theme={theme} />
             <div className={styles.section}>
                 <div className={styles.article}>
                     <Person

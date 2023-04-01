@@ -2,38 +2,36 @@
   "name": "cv",
   "version": "0.1.0",
   "description": "just CV",
+  "license": "MIT",
+  "author": "Alex Bu",
   "main": "index.js",
   "scripts": {
-    "start": "cross-env NODE_ENV=development webpack serve",
     "build": "cross-env NODE_ENV=production webpack",
-    "lint": "eslint . --ext .ts,.tsx"
+    "lint": "eslint . --ext .ts,.tsx",
+    "start": "cross-env NODE_ENV=development webpack serve"
   },
-  "author": "Alex Bu",
-  "license": "MIT",
-  "dependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "5.56.0",
     "@typescript-eslint/parser": "5.56.0",
+    "copy-webpack-plugin": "11.0.0",
+    "cross-env": "7.0.3",
     "css-loader": "6.7.3",
     "eslint": "7.32.0",
     "eslint-config-preact": "1.3.0",
     "eslint-plugin-preact": "0.1.0",
     "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-hooks": "4.6.0",
     "html-webpack-plugin": "^5.5.0",
-    "node-sass": "8.0.0",
     "preact": "10.13.2",
     "preact-render-to-string": "6.0.0",
-    "sass-loader": "13.2.1",
+    "preact-svg-loader": "0.2.1",
+    "sass": "1.60.0",
+    "sass-loader": "^13.2.2",
     "style-loader": "3.3.2",
     "ts-loader": "9.4.2",
     "typescript": "5.0.2",
-    "webpack": "5.76.3",
+    "webpack": "5.77.0",
     "webpack-cli": "5.0.1",
     "webpack-dev-server": "4.13.1"
-  },
-  "devDependencies": {
-    "copy-webpack-plugin": "^11.0.0",
-    "cross-env": "^7.0.3",
-    "preact-svg-loader": "^0.2.1"
   }
 }

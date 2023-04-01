@@ -1,8 +1,7 @@
 import { FunctionComponent } from 'preact';
 import { Layout } from './components/Layout';
 import { useState, useEffect } from 'preact/compat';
-import { updateTheme } from './utils';
-import { THEMES } from './constants';
+import { THEMES, updateTheme } from './components/ThemeToggle';
 import styles from './App.scss';
 
 interface AppProps {
@@ -22,5 +21,5 @@ export const App: FunctionComponent<AppProps> = ({ theme }) => {
         void fetch('data.json').then(response => response.json()).then((response) => setData(response));
 
     }, []);
-    return <Layout data={data} print={print} />;
+    return <Layout data={data} print={print} theme={theme} />;
 };
