@@ -12,42 +12,72 @@ html, body {
 :root {
   --theme-animation-time: .3s;
 
-  --background-light: #c8c7c763;
+  --background-light: #FFF;
   --background-dark: #0E1117;
 
-  --text-color-pure-white: #fff;
-  --text-color-dark-1: #E9E9E9;
-  --text-color-dark-2: #ADB6C0;
-  --text-color-dark-3: #8B949E;
-  --text-color-dark-4: #F0F6FC;
-  --text-color-dark-5: #58A6FF;
+  --text-pure-white: #fff;
+  --text-pure-black: #000;
 
-  --text-color-light-1: #0E1117;
+  --text-light-1: #24292F;
+  --text-light-2: #57606A;
+  --text-light-3: #24292F;
+  --text-dark-1: #FFFFFF;
+  --text-dark-2: #8B949E;
+  --text-dark-3: #E9E9E9;
 
-  --text-color-pure-black: #000;
-  --border-color-light-1: #21262D; /////
-  --border-color-light-2: #21262D; /////
-  --border-color-dark-1: #21262D;
-  --border-color-dark-2: #30363D;
+  --progress-light: #57606A99;
+  --progress-dark: #838386;
+  --progressbar-light: #57606A33;
+  --progressbar-dark: #41434B;
+
+
+  --border-light-1: #21262D;
+  --border-light-2: #24292F;
+  --border-dark-1: #21262D;
+  --border-dark-2: rgba(255, 255, 255, 0.2);
+
+  --email-background-light: #206FEB;
+  --email-background-dark: #206FEB;
+  --email-text-light: #fff;
+  --email-text-dark: #fff;
+  --phone-text-light: #206FEB;
+  --phone-text-dark: #8B949E;
 }
 
 body[data-theme='light'] {
   --background-color: var(--background-light);
-  --text-color-pure: var(--text-color-pure-black);
-  --text-color-1: var(--text-color-light-1);
 
-  --border-color-1: var(--border-color-light-1);
-  --border-color-2: var(--border-color-light-2);
+  --text-color-pure: var(--text-pure-black);
+  --text-color-1: var(--text-light-1);
+  --text-color-2: var(--text-light-2);
+  --text-color-3: var(--text-light-3);
+
+  --border-color-1: var(--border-light-1);
+  --border-color-2: var(--border-light-2);
+
+  --progress-color: var(--progress-light);
+  --progressbar-color: var(--progressbar-light);
+
+  --email-background: var(--email-background-light);
+  --email-text: var(--email-text-light);
+  --phone-text: var(--phone-text-light);
 }
 
 body[data-theme='dark'] {
   --background-color: var(--background-dark);
-  --text-color-pure: var(--text-color-pure-white);
-  --text-color-1: var(--text-color-dark-1);
-  --text-color-2: var(--text-color-dark-2);
-  --text-color-3: var(--text-color-dark-3);
-  --text-color-4: var(--text-color-dark-4);
-  --text-color-5: var(--text-color-dark-5);
-  --border-color-1: var(--border-color-dark-1);
-  --border-color-2: var(--border-color-dark-2);
+
+  --text-color-pure: var(--text-pure-white);
+  --text-color-1: var(--text-dark-1);
+  --text-color-2: var(--text-dark-2);
+  --text-color-3: var(--text-dark-3);
+
+  --border-color-1: var(--border-dark-1);
+  --border-color-2: var(--border-dark-2);
+
+  --progress-color: var(--progress-dark);
+  --progressbar-color: var(--progressbar-dark);
+
+  --email-background: var(--email-background-dark);
+  --email-text: var(--email-text-dark);
+  --phone-text: var(--phone-text-dark);
 }

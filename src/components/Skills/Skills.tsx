@@ -9,6 +9,7 @@ interface UserSkillsProps {
 
 export const Skills: FunctionComponent<UserSkillsProps> = ({ skills}) => {
     return (<div className={styles.skills}>
+        <div className={styles.title}>Skills</div>
         {skills.map((s) => <Skill skill={s} />)}
     </div>);
 }

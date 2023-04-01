@@ -1,6 +1,7 @@
 export type UserSkill = {
     name: string;
     level: number;
+    emoji?: string;
 };
 
 export type UserExperience = {

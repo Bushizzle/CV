@@ -5,123 +5,148 @@
   "skills": [
     {
       "name": "Typescript",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83C\uDFCE"
     },
     {
       "name": "JavaScript",
-      "level": 100
-    },
-    {
-      "name": "React",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDEB2"
     },
     {
       "name": "Node",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83E\uDD16"
+    },
+    {
+      "name": "React",
+      "level": 100,
+      "emoji": "\uD83E\uDDEA"
     },
     {
       "name": "AWS",
-      "level": 90
+      "level": 90,
+      "emoji": "☁"
     },
     {
       "name": "Developer Relations",
-      "level": 90
+      "level": 90,
+      "emoji": "\uD83D\uDCE2"
     },
     {
       "name": "Git",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDCAC"
     },
     {
       "name": "NextJS",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDEF3"
     },
     {
       "name": "SCSS",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDC85"
     },
     {
       "name": "Figma",
-      "level": 80
+      "level": 80,
+      "emoji": "\uD83C\uDFD6"
     },
     {
       "name": "GraphQL",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDC19"
     },
     {
       "name": "ZEIT Now",
-      "level": 80
+      "level": 80,
+      "emoji": "\uD83D\uDE9C"
     },
     {
       "name": "Algolia",
-      "level": 50
+      "level": 50,
+      "emoji": "\uD83D\uDD0D"
     },
     {
       "name": "jQuery",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83E\uDDDF"
     },
     {
       "name": "Jade",
-      "level": 80
+      "level": 80,
+      "emoji": "\uD83E\uDE9A"
     },
     {
       "name": "HTML",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83E\uDEB5"
     },
     {
       "name": "Websockets",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83D\uDD03"
     },
     {
       "name": "Vue 2",
-      "level": 80
+      "level": 80,
+      "emoji": "\uD83D\uDEF8"
     },
     {
       "name": "Project Management",
-      "level": 70
-    },
-    {
-      "name": "NextJs",
-      "level": 100
+      "level": 70,
+      "emoji": "♥"
     },
     {
       "name": "prismic.io",
-      "level": 100
+      "level": 100,
+      "emoji": "\uD83E\uDD13"
     },
     {
       "name": "GatsbyJS",
-      "level": 70
+      "level": 70,
+      "emoji": ""
     },
     {
       "name": "mongoDB",
-      "level": 80
+      "level": 80,
+      "emoji": ""
     },
     {
       "name": "canvas",
-      "level": 100
+      "level": 100,
+      "emoji": ""
     },
     {
       "name": "SVG",
-      "level": 100
+      "level": 100,
+      "emoji": ""
     },
     {
       "name": "threeJS",
-      "level": 50
+      "level": 50,
+      "emoji": ""
     },
     {
       "name": "webGL",
-      "level": 50
+      "level": 50,
+      "emoji": ""
     },
     {
       "name": "Redis",
-      "level": 30
+      "level": 30,
+      "emoji": ""
     },
     {
       "name": "KnockoutJS",
-      "level": 100
+      "level": 100,
+      "emoji": ""
     },
     {
       "name": "koaJS",
-      "level": 100
+      "level": 100,
+      "emoji": ""
     }
   ],
   "experiences": [
@@ -254,9 +279,9 @@
     }
   ],
   "contacts" : {
-    "Tel": "+995595002584",
+    "Tel": "+995-595-00-2584",
     "Email": "4lex.bu@gmail.com",
-    "Telegram": "@bushizzle",
+    "Telegram": "https://t.me/bushizzle",
     "LinkedIn": "https://www.linkedin.com/in/a-bu/",
     "GitHub": "https://github.com/Bushizzle",
     "Facebook": "https://www.facebook.com/profile.php?id=100008326755935"

@@ -42,13 +42,15 @@
 }
 
 .email {
-  background-color: #206FEB;
+  background-color: var(--email-background);
   border-radius: 4px;
-  color: var(--text-color-pure);
-  fill: var(--text-color-pure);
+  color: var(--email-text);
+  letter-spacing: -2%;
+  fill: var(--email-text);
 }
 
 .tel {
-  color: var(--text-color-3);
-  fill: var(--text-color-3);
+  color: var(--phone-text);
+  letter-spacing: -2%;
+  fill: var(--phone-text);
 }

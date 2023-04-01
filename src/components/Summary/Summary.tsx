@@ -9,10 +9,10 @@ interface SummaryProps {
 export const Summary: FunctionComponent<SummaryProps> = ({ title, text }) => {
     return (
         <div className={styles.summary}>
-            <span className={styles.name}>{title}</span>
+            <h2 className={styles.name}>{title}</h2>
             <PfaSVG />
-            <span className={styles.title}>Summary</span>
-            <span className={styles.text}>{text}</span>
+            <h2 className={styles.title}>Summary</h2>
+            <div className={styles.text}>{text}</div>
         </div>
     );
 }

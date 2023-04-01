@@ -1,5 +1,28 @@
-.summary {
+.name {
+  display: block;
+  font-size: 20px;
+  font-weight: bold;
   color: var(--text-color-1);
+  letter-spacing: -2%;
+  @media screen and (max-width: 1000px) {
+    display: none;
+  }
+}
+
+.title {
+  display: block;
+  margin: 40px 0 12px;
+  color: var(--text-color-1);
+  letter-spacing: -1%;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.summary {
+  color: var(--text-color-2);
+  letter-spacing: -2%;
 
   svg {
     display: block;
@@ -10,21 +33,6 @@
   }
 }
 
-.name {
-  display: block;
-  font-size: 20px;
-  font-weight: bold;
-  @media screen and (max-width: 1000px) {
-    display: none;
-  }
-}
-
-.title {
-  display: block;
-  margin: 40px 0 12px;
-  color: var(--text-color-4);
-  font-size: 20px;
-  line-height: 30px;
-  font-weight: 600;
+.text {
   text-align: center;
 }
