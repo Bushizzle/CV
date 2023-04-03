@@ -1,7 +1,7 @@
 {
   "photo": "assets/photo-min.png",
   "name": "Alex Bushmanov",
-  "summary": "Dedicated and passionate Frontend Developer with 8 years of hands-on experience in crafting visually stunning, high-performance, and user-friendly web applications. Adept in JavaScript, with a strong command of modern frameworks and libraries such as React, Angular, and Vue.js. Proven ability to collaborate effectively with cross-functional teams, consistently delivering innovative and scalable solutions that exceed client expectations. Committed to staying up-to-date with the latest industry trends and best practices to drive continuous improvement and growth.",
+  "summary": "Dedicated and passionate <b>Frontend Developer</b> with <b>8 years</b> of hands-on <b>experience</b> in crafting visually stunning, high-performance, and user-friendly web applications. Adept in JavaScript, with a strong command of modern frameworks and libraries such as React, Angular, and Vue.js. Proven ability to collaborate effectively with cross-functional teams, consistently delivering innovative and scalable solutions that exceed client expectations. Committed to staying up-to-date with the latest industry trends and best practices to drive continuous improvement and growth.",
   "skills": [
     {
       "name": "Typescript",
@@ -106,47 +106,47 @@
     {
       "name": "GatsbyJS",
       "level": 70,
-      "emoji": ""
+      "emoji": "\uD83C\uDF78"
     },
     {
       "name": "mongoDB",
       "level": 80,
-      "emoji": ""
+      "emoji": "\uD83C\uDF43"
     },
     {
       "name": "canvas",
       "level": 100,
-      "emoji": ""
+      "emoji": "\uD83D\uDD8C"
     },
     {
       "name": "SVG",
       "level": 100,
-      "emoji": ""
+      "emoji": "\uD83D\uDCD0"
     },
     {
       "name": "threeJS",
       "level": 50,
-      "emoji": ""
+      "emoji": "\uD83C\uDFAE"
     },
     {
       "name": "webGL",
       "level": 50,
-      "emoji": ""
+      "emoji": "\uD83D\uDD2E"
     },
     {
       "name": "Redis",
       "level": 30,
-      "emoji": ""
+      "emoji": "\uD83E\uDD55"
     },
     {
       "name": "KnockoutJS",
       "level": 100,
-      "emoji": ""
+      "emoji": "\uD83E\uDD4A"
     },
     {
       "name": "koaJS",
-      "level": 100,
-      "emoji": ""
+      "level": 90,
+      "emoji": "\uD83D\uDC28"
     }
   ],
   "experiences": [

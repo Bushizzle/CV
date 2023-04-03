@@ -12,7 +12,7 @@ export const Summary: FunctionComponent<SummaryProps> = ({ title, text }) => {
             <h2 className={styles.name}>{title}</h2>
             <PfaSVG />
             <h2 className={styles.title}>Summary</h2>
-            <div className={styles.text}>{text}</div>
+            <div className={styles.text} dangerouslySetInnerHTML={{__html: text}} />
         </div>
     );
 }
