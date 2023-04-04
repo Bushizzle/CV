@@ -159,8 +159,8 @@
       "description": "Space307 is a product-oriented IT company, whose flagship project is a trading platform for retail brokers. The platform currently has over 60 million users worldwide.",
       "keyNotes": [
         "Developed AWS system with decentralized caching for 500,000 daily requests",
-        "Optimized code base, and removed JQuery, which helped to achieve 8% application size reduction",
-        "Established development processes, including review & approval flow and DoD/DoR documents",
+        "Optimized code base, and removed JQuery, which helped to achieve 15% application size reduction",
+        "Established development processes, including review & approval flow and DoD/DoR documents, which 100% shortened backend/frontend tech difference",
         "Rewrote frontend onboarding docs and created tutorials for internal tools",
         "Authored articles to promote HR brand and improve colleagues' writing",
         "Launched a news feed for senior frontend developers (1300+ subscribers) as part of DevRel",
