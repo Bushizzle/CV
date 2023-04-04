@@ -170,17 +170,16 @@
       "skills": [
         "Typescript",
         "JavaScript",
-        "ReactJS",
+        "React",
+        "AWS",
         "Developer Relations",
+        "NodeJS",
         "Figma",
         "Git",
-        "AWS",
-        "React",
-        "SCSS",
+        "PCSS",
         "jQuery",
         "HTML",
         "Websockets",
-        "NodeJS",
         "GatsbyJS",
         "mongoDB",
         "canvas",
@@ -201,12 +200,13 @@
         "Enhanced collaboration processes within teams and between development and business units"
       ],
       "skills": [
-        "Figma",
-        "Git",
-        "React",
         "Typescript",
-        "SCS",
+        "React",
+        "SCSS",
+        "NodeJS",
+        "Git",
         "Project Management",
+        "Figma",
         "Jira"
       ]
     },
@@ -225,22 +225,19 @@
         "Improved and optimized functionality of the company's internal tools"
       ],
       "skills": [
-        "Git",
+        "Typescript",
+        "JavaScript",
+        "NodeJS",
         "React",
         "NextJS",
-        "Typescript",
         "SCSS",
+        "Git",
         "styled-components",
         "GraphQL",
         "ZEIT Now",
         "Algolia",
-        "CSS",
-        "HTML",
         "Websockets",
         "Project Management",
-        "JavaScript",
-        "ReactJS",
-        "NodeJS",
         "NextJs",
         "prismic.io",
         "GatsbyJS",
@@ -263,14 +260,14 @@
         "Enhanced the efficiency and cost-effectiveness of the roof building process by optimizing the application's performance and functionality"
       ],
       "skills": [
-        "Git",
-        "CSS",
-        "HTML",
-        "Websockets",
         "JavaScript",
         "NodeJS",
         "mongoDB",
         "canvas",
+        "LESS",
+        "HTML",
+        "Git",
+        "Websockets",
         "SVG",
         "webGL",
         "KnockoutJS"
@@ -290,14 +287,14 @@
         "Collaborated with clients and team members to ensure projects were completed on time and to the satisfaction of all stakeholders."
       ],
       "skills": [
-        "Git",
-        "SCSS",
-        "jQuery",
-        "Jade",
-        "LESS",
-        "CSS",
         "HTML",
         "JavaScript",
+        "jQuery",
+        "CSS",
+        "LESS",
+        "SCSS",
+        "Git",
+        "Jade",
         "canvas",
         "SVG"
       ]
@@ -315,10 +312,10 @@
         "Diverse background in photography, journalism, and advertising."
       ],
       "skills": [
-        "Git",
         "CSS",
         "HTML",
-        "webGL"
+        "webGL",
+        "Git"
       ]
     }
   ],
