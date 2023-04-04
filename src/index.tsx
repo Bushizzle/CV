@@ -5,5 +5,5 @@ import { detectTheme } from './components/ThemeToggle';
 const root = document.getElementById('root');
 
 if (root) {
-    render(<App theme={detectTheme()} />, root);
+  render(<App theme={detectTheme()} />, root);
 }

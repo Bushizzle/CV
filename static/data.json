@@ -1,7 +1,7 @@
 {
   "photo": "assets/photo-min.png",
   "name": "Alex Bushmanov",
-  "summary": "Dedicated and passionate <b>Frontend Developer</b> with <b>8 years</b> of hands-on <b>experience</b> in crafting visually stunning, high-performance, and user-friendly web applications. Adept in JavaScript, with a strong command of modern frameworks and libraries such as React, Angular, and Vue.js. Proven ability to collaborate effectively with cross-functional teams, consistently delivering innovative and scalable solutions that exceed client expectations. Committed to staying up-to-date with the latest industry trends and best practices to drive continuous improvement and growth.",
+  "summary": "Experienced Frontend Developer with 8 years of expertise in JavaScript and modern frameworks like React, Angular, and Vue.js, collaborating effectively with cross-functional teams to deliver innovative solutions and staying up-to-date with industry trends.",
   "skills": [
     {
       "name": "Typescript",
@@ -152,24 +152,34 @@
   "experiences": [
     {
       "company": "Space307",
+      "site": "https://space307.com/",
       "position": "Senior Software Engineer / Tech Team",
       "country": "Cyprus",
       "dates": "Aug 2021 - Feb 2023",
-      "description": "During my time at Space307, I optimized global product development by improving development processes, contributing to code reviews, and using AWS to create a global topology caching and distribution system. Additionally, I developed and improved product features, wrote technical documentation to ensure team members could easily understand and use products and features, and mentored colleagues to achieve their professional goals and four aspiring web developers from Russia and Ukraine. My efforts supported the company's success and maintained high development standards. Lastly, utilizing my journalism background, I wrote articles promoting the HR brand and managed a channel on front-end news for senior developers with over 1,000 subscribers.",
+      "description": "Space307 is a product-oriented IT company, whose flagship project is a trading platform for retail brokers. The platform currently has over 60 million users worldwide.",
+      "keyNotes": [
+        "Developed AWS system with decentralized caching for 500,000 daily requests",
+        "Optimized code base, and removed JQuery, which helped to achieve 15% application size reduction",
+        "Established development processes, including review & approval flow and DoD/DoR documents, which 100% shortened backend/frontend tech difference",
+        "Rewrote frontend onboarding docs and created tutorials for internal tools",
+        "Authored articles to promote HR brand and improve colleagues' writing",
+        "Launched a news feed for senior frontend developers (1300+ subscribers) as part of DevRel",
+        "Implemented custom analytics solution by researching Amplitude performance",
+        "Developed product features, including fast chart API with FlatBuffers, market component rebuild, and new experience system integration"
+      ],
       "skills": [
         "Typescript",
         "JavaScript",
-        "ReactJS",
+        "React",
+        "AWS",
         "Developer Relations",
+        "NodeJS",
         "Figma",
         "Git",
-        "AWS",
-        "React",
-        "SCSS",
+        "PCSS",
         "jQuery",
         "HTML",
         "Websockets",
-        "NodeJS",
         "GatsbyJS",
         "mongoDB",
         "canvas",
@@ -179,43 +189,55 @@
     },
     {
       "company": "KMS Lighthouse",
+      "site": "https://www.kmslh.com/",
       "position": "Senior Software Engineer / Team Leader",
       "country": "Russia",
       "dates": "Nov 2020 - Jun 2021",
-      "description": "At KMS Lighthouse, I was responsible for developing new product features while managing a team of front-end and back-end developers. In addition, I took charge of improving communication processes within and between teams and with the business. I also played a key role in providing support for legacy code, ensuring that it was maintained and updated as needed. By doing so, I was able to ensure that the company's products were of the highest quality and met the needs of both the customers and the stakeholders.",
+      "description": "KMS Lighthouse is a knowledge management system used by businesses worldwide to create, store, share, and analyze information.",
+      "keyNotes": [
+        "Implemented an AI-driven search engine in an existing KMS (Knowledge Management System) for enhanced product functionality",
+        "Managed a team of 5 members, including frontend, backend, and QA developers",
+        "Enhanced collaboration processes within teams and between development and business units"
+      ],
       "skills": [
-        "Figma",
-        "Git",
-        "React",
         "Typescript",
-        "SCS",
+        "React",
+        "SCSS",
+        "NodeJS",
+        "Git",
         "Project Management",
+        "Figma",
         "Jira"
       ]
     },
     {
       "company": "Distillery",
+      "site": "https://distillery.com/",
       "position": "Senior Software Engineer / Team Leader",
       "country": "Russia",
       "dates": "Feb 2019 - Nov 2020",
-      "description": "At Distillery, I was a team leader responsible for migrating clients' websites to new technology stacks. In this role, I led a development team that included front-end, back-end, QA, and manager roles. Additionally, I was responsible for improving the functionality of the company's internal tools, ensuring that they were up-to-date and effective. Through my work, I was able to create a positive impact on the company's clients, as well as on the company's employees. Furthermore, I conducted interviews for Frontend Engineers in both Russian and English, which allowed me to find and attract top talent from around the world. Overall, I played an instrumental role in improving the company's technical capabilities and strengthening its position in the market.",
+      "description": "Distillery is an IT outsource company that specializes in custom software development, digital product design, and startup incubation for clients in various industries worldwide.",
+      "keyNotes": [
+        "Migrated 3 customer websites from the US to new technology stacks",
+        "Led a team of 6 members working on these tasks (Frontend + Backend + QA + Project Manager)",
+        "Conducted numerous interviews for Middle/Senior Frontend Engineers in Russian and English for offices in Argentina, Mexico, and Russia",
+        "Worked as a guest specialist at one of Russia's largest banks, developing new features for their mobile website version",
+        "Improved and optimized functionality of the company's internal tools"
+      ],
       "skills": [
-        "Git",
+        "Typescript",
+        "JavaScript",
+        "NodeJS",
         "React",
         "NextJS",
-        "Typescript",
         "SCSS",
+        "Git",
         "styled-components",
         "GraphQL",
         "ZEIT Now",
         "Algolia",
-        "CSS",
-        "HTML",
         "Websockets",
-        "Зкщоусе Ьфтфпуьуте",
-        "JavaScript",
-        "ReactJS",
-        "NodeJS",
+        "Project Management",
         "NextJs",
         "prismic.io",
         "GatsbyJS",
@@ -226,20 +248,26 @@
       ]
     },
     {
-      "company": "EXEC LOGIC ",
+      "company": "EXEC LOGIC",
       "position": "Full Stack Developer",
       "country": "Russia",
       "dates": "Jun 2016 - Dec 2018",
-      "description": "During my work, I was tasked with creating a large application with the primary goal of constructing a roof using a variety of materials. To accomplish this, I utilized both client and server-side technologies. The application allowed users to create new materials or use existing ones, generate roof drawings, calculate the required quantity and cost of materials, and even place an order. By implementing these features, I was able to provide users with a comprehensive solution that helped them build their ideal roofs while also making the process more efficient and cost-effective.",
+      "description": "EXEC LOGIC is a startup that develops a lightweight and efficient roof construction application to recommend materials and calculate the best material prices using advanced algorithms and data analytics.",
+      "keyNotes": [
+        "Designed and developed a high-performance frontend application for roof construction using various materials",
+        "Utilized NodeJS expertise to replace the old backend and significantly reduce roof calculation time from 2 seconds to 50 milliseconds",
+        "Implemented advanced algorithms such as ray tracing in geometry to create multiple drawing and calculation modes, ahead of the mainstream adoption of these techniques",
+        "Enhanced the efficiency and cost-effectiveness of the roof building process by optimizing the application's performance and functionality"
+      ],
       "skills": [
-        "Git",
-        "CSS",
-        "HTML",
-        "Websockets",
         "JavaScript",
         "NodeJS",
         "mongoDB",
         "canvas",
+        "LESS",
+        "HTML",
+        "Git",
+        "Websockets",
         "SVG",
         "webGL",
         "KnockoutJS"
@@ -247,38 +275,51 @@
     },
     {
       "company": "AdWatch Isobar",
-      "position": "Software Engineer",
+      "site": "https://adwatch.ru/",
+      "position": "Frontend Developer",
       "country": "Russia",
       "dates": "Jul 2014 - Nov 2015",
-      "description": "As part of my daily work, I was responsible for breathing life into a designer's vision by using HTML, CSS, and JavaScript to implement responsive design for mobile sites. I was also tasked with reviewing pull requests from other developers and testers, and performing refactoring to improve the codebase. Additionally, I evaluated projects and planned tasks to ensure that all work was completed efficiently and effectively. Despite the challenges that came with the job, I remained dedicated and committed to delivering the best possible results, ultimately contributing to the success of the projects I was involved in.",
+      "description": "AdWatch Isobar is a digital advertising agency that provides services in strategy, design, media planning, and data analytics to clients in various industries worldwide.",
+      "keyNotes": [
+        "Created numerous websites and landing pages for well-known companies such as Danone, Toffee, Nestle, Colgate-Palmolive, and others",
+        "Utilized HTML, CSS, and JavaScript to bring designs to life and ensure a responsive experience for users",
+        "Maintained a high level of quality control and attention to detail, delivering polished and professional final products",
+        "Collaborated with clients and team members to ensure projects were completed on time and to the satisfaction of all stakeholders."
+      ],
       "skills": [
-        "Git",
-        "SCSS",
-        "jQuery",
-        "Jade",
-        "LESS",
-        "CSS",
         "HTML",
         "JavaScript",
+        "jQuery",
+        "CSS",
+        "LESS",
+        "SCSS",
+        "Git",
+        "Jade",
         "canvas",
         "SVG"
       ]
     },
     {
       "company": "Self-Employed",
-      "position": "Frontend Developer",
+      "position": "Junior Frontend Developer",
       "country": "Russia",
       "dates": "Jan 2012 - Jun 2014",
-      "description": "In 2012, I graduated from university, having worked as a photographer, journalist, and print advertising specialist during my studies. After graduation, I continued to work as an interior photographer while also beginning to study C++ as I was eager to explore programming. After a few months, I unexpectedly received an opportunity to complete someone else's project - a simple static site for a company dealing with patents. This is where I first encountered HTML and began to delve into the world of web development.\n\nOver the next two years, I focused on mastering HTML, CSS, and vanilla Javascript as I worked remotely and searched for orders on freelancer websites. By the beginning of 2013, I had secured a large permanent customer from Moscow, with whom I worked exclusively for some time. However, in 2014, I decided to seek out a position in a larger company where I could work alongside more experienced developers and expand my knowledge further. Despite the challenges and setbacks that inevitably arise in any field, I remained committed to my passion for programming, constantly striving to improve my skills and deliver the best possible results.",
+      "description": "Self-taught in programming, focusing on C++ and web development. Successfully completed freelance projects, including landing pages, with a long-term Moscow client.",
+      "keyNotes": [
+        "Successful freelance experience, including a long-term Moscow client and various projects, mostly creating landing pages.",
+        "Self-taught in C++ and web development (HTML, CSS, JavaScript).",
+        "Committed to continuous learning and skill improvement in web development.",
+        "Diverse background in photography, journalism, and advertising."
+      ],
       "skills": [
-        "Git",
         "CSS",
         "HTML",
-        "webGL"
+        "webGL",
+        "Git"
       ]
     }
   ],
-  "contacts" : {
+  "contacts": {
     "Tel": "+995-595-00-2584",
     "Email": "4lex.bu@gmail.com",
     "Telegram": "https://t.me/bushizzle",

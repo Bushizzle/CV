@@ -1,0 +1,15 @@
+export const RANDOM_QUOTE = [
+  'My ultimate skill',
+  'Oh, that was really hardcore',
+  'Fancy, huh?',
+  'Keep clicking',
+  'This one is my favorite',
+  'Really mastered in this one',
+  'It was desperate times...',
+  'Nice click, thanks!',
+  'It really worth it',
+  'Maybe there is some easter egg?',
+  'Hire me',
+  'Nice one',
+  'Spent 1000 hours just in tutorial',
+];
