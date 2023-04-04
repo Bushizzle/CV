@@ -10,7 +10,7 @@ interface JobExperienceProps {
 
 const CompanyName = ({ name, site }: { name: string; site?: string }) =>
   site ? (
-    <a href={site} target="_blank">
+    <a className={styles.company} href={site} target="_blank">
       {name}
     </a>
   ) : (
@@ -20,7 +20,8 @@ const CompanyName = ({ name, site }: { name: string; site?: string }) =>
 export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experiences }) => {
   return (
     <div className={styles.experience}>
-      {experiences.map(({ company, site, position, dates, country, description, skills }) => {
+      {experiences.map(({ company, site, position, dates, country, description, keyNotes, skills }) => {
+        console.log(keyNotes);
         return (
           <div className={styles.jobExperience}>
             <h2 className={styles.title}>{position}</h2>
@@ -30,6 +31,11 @@ export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experienc
             </h3>
 
             <div className={styles.descriptionText}>{description}</div>
+            <ul className={styles.descriptionList}>
+              {keyNotes.map(item => (
+                <li>{item}</li>
+              ))}
+            </ul>
             <ul className={styles.keySkills}>
               {skills.map(skill => (
                 <SkillChips name={skill} />

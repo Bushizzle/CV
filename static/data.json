@@ -163,7 +163,7 @@
         "Established development processes, including review & approval flow and DoD/DoR documents",
         "Rewrote frontend onboarding docs and created tutorials for internal tools",
         "Authored articles to promote HR brand and improve colleagues' writing",
-        "Started a frontend news channel for senior developers (1300+ subscribers) as part of DevRel",
+        "Launched a news feed for senior frontend developers (1300+ subscribers) as part of DevRel",
         "Implemented custom analytics solution by researching Amplitude performance",
         "Developed product features, including fast chart API with FlatBuffers, market component rebuild, and new experience system integration"
       ],
@@ -283,7 +283,12 @@
       "country": "Russia",
       "dates": "Jul 2014 - Nov 2015",
       "description": "AdWatch Isobar is a digital advertising agency that provides services in strategy, design, media planning, and data analytics to clients in various industries worldwide.",
-      "keyNotes": "As part of my daily work, I was responsible for breathing life into a designer's vision by using HTML, CSS, and JavaScript to implement responsive design for mobile sites. I was also tasked with reviewing pull requests from other developers and testers, and performing refactoring to improve the codebase. Additionally, I evaluated projects and planned tasks to ensure that all work was completed efficiently and effectively. Despite the challenges that came with the job, I remained dedicated and committed to delivering the best possible results, ultimately contributing to the success of the projects I was involved in.",
+      "keyNotes": [
+        "Created numerous websites and landing pages for well-known companies such as Danone, Toffee, Nestle, Colgate-Palmolive, and others",
+        "Utilized HTML, CSS, and JavaScript to bring designs to life and ensure a responsive experience for users",
+        "Maintained a high level of quality control and attention to detail, delivering polished and professional final products",
+        "Collaborated with clients and team members to ensure projects were completed on time and to the satisfaction of all stakeholders."
+      ],
       "skills": [
         "Git",
         "SCSS",
