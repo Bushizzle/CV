@@ -1,32 +1,34 @@
 export type UserSkill = {
-    name: string;
-    level: number;
-    emoji?: string;
+  name: string;
+  level: number;
+  emoji?: string;
 };
 
 export type UserExperience = {
-    company: string;
-    position: string;
-    country: string;
-    dates: string;
-    description: string;
-    skills: string[];
+  company: string;
+  site: string;
+  position: string;
+  country: string;
+  dates: string;
+  description: string;
+  keyNotes: string[];
+  skills: string[];
 };
 
 export type UserContacts = {
-    Tel?: string;
-    Telegram?: string;
-    Email?: string;
-    LinkedIn?: string;
-    GitHub?: string;
-    Facebook?: string;
+  Tel?: string;
+  Telegram?: string;
+  Email?: string;
+  LinkedIn?: string;
+  GitHub?: string;
+  Facebook?: string;
 };
 
 export type UserData = {
-    photo: string;
-    name: string;
-    summary: string,
-    skills: UserSkill[];
-    experiences: UserExperience[];
-    contacts: UserContacts;
+  photo: string;
+  name: string;
+  summary: string;
+  skills: UserSkill[];
+  experiences: UserExperience[];
+  contacts: UserContacts;
 };
