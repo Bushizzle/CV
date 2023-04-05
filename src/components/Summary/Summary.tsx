@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'preact';
 import styles from './Summary.scss';
 
-import PfaSVG from './../../../static/assets/pfa.svg';
+import PfaSVG from '/static/assets/pfa.svg';
 interface SummaryProps {
   title: string;
   text: string;

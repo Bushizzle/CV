@@ -1,6 +1,6 @@
 {
   "photo": "assets/photo-min.png",
-  "name": "Alex Bushmanov",
+  "name": "Alex Bushmanov (relocation, remote, on-site)",
   "summary": "Experienced Frontend Developer with 8 years of expertise in JavaScript and modern frameworks like React, Angular, and Vue.js, collaborating effectively with cross-functional teams to deliver innovative solutions and staying up-to-date with industry trends.",
   "skills": [
     {
@@ -154,7 +154,6 @@
       "company": "Space307",
       "site": "https://space307.com/",
       "position": "Senior Software Engineer / Tech Team",
-      "country": "Cyprus",
       "dates": "Aug 2021 - Feb 2023",
       "description": "Space307 is a product-oriented IT company, whose flagship project is a trading platform for retail brokers. The platform currently has over 60 million users worldwide.",
       "keyNotes": [
@@ -191,7 +190,6 @@
       "company": "KMS Lighthouse",
       "site": "https://www.kmslh.com/",
       "position": "Senior Software Engineer / Team Leader",
-      "country": "Russia",
       "dates": "Nov 2020 - Jun 2021",
       "description": "KMS Lighthouse is a knowledge management system used by businesses worldwide to create, store, share, and analyze information.",
       "keyNotes": [
@@ -214,7 +212,6 @@
       "company": "Distillery",
       "site": "https://distillery.com/",
       "position": "Senior Software Engineer / Team Leader",
-      "country": "Russia",
       "dates": "Feb 2019 - Nov 2020",
       "description": "Distillery is an IT outsource company that specializes in custom software development, digital product design, and startup incubation for clients in various industries worldwide.",
       "keyNotes": [
@@ -250,7 +247,6 @@
     {
       "company": "EXEC LOGIC",
       "position": "Full Stack Developer",
-      "country": "Russia",
       "dates": "Jun 2016 - Dec 2018",
       "description": "EXEC LOGIC is a startup that develops a lightweight and efficient roof construction application to recommend materials and calculate the best material prices using advanced algorithms and data analytics.",
       "keyNotes": [
@@ -277,7 +273,6 @@
       "company": "AdWatch Isobar",
       "site": "https://adwatch.ru/",
       "position": "Frontend Developer",
-      "country": "Russia",
       "dates": "Jul 2014 - Nov 2015",
       "description": "AdWatch Isobar is a digital advertising agency that provides services in strategy, design, media planning, and data analytics to clients in various industries worldwide.",
       "keyNotes": [
@@ -302,7 +297,6 @@
     {
       "company": "Self-Employed",
       "position": "Junior Frontend Developer",
-      "country": "Russia",
       "dates": "Jan 2012 - Jun 2014",
       "description": "Self-taught in programming, focusing on C++ and web development. Successfully completed freelance projects, including landing pages, with a long-term Moscow client.",
       "keyNotes": [

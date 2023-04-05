@@ -19,17 +19,15 @@ export const Layout: FunctionComponent<LayoutProps> = ({ data, theme, print }) =
   return !data ? null : (
     <div className={styles.layout}>
       <ThemeToggle theme={theme} />
-      <div className={styles.section}>
-        <div className={styles.article}>
-          <Person imageUrl={data.photo} githubUrl={data.contacts.GitHub} print={print} />
-          <Contacts contacts={data.contacts} />
-          <Skills skills={data.skills} />
-        </div>
-        <div className={styles.article}>
-          <Summary title={data.name} text={data.summary} />
-          <JobExperience experiences={data.experiences} />
-        </div>
-      </div>
+      <aside>
+        <Person imageUrl={data.photo} githubUrl={data.contacts.GitHub} print={print} />
+        <Contacts contacts={data.contacts} />
+        <Skills skills={data.skills} />
+      </aside>
+      <main>
+        <Summary title={data.name} text={data.summary} />
+        <JobExperience experiences={data.experiences} />
+      </main>
     </div>
   );
 };

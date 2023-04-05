@@ -20,14 +20,13 @@ const CompanyName = ({ name, site }: { name: string; site?: string }) =>
 export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experiences }) => {
   return (
     <div className={styles.experience}>
-      {experiences.map(({ company, site, position, dates, country, description, keyNotes, skills }) => {
-        console.log(keyNotes);
+      {experiences.map(({ company, site, position, dates, description, keyNotes, skills }) => {
         return (
           <div className={styles.jobExperience}>
             <h2 className={styles.title}>{position}</h2>
             <h3 className={styles.subtitle}>
               <CompanyName name={company} site={site} />
-              {` (${country}) ${dates}`}
+              {` (${dates})`}
             </h3>
 
             <div className={styles.descriptionText}>{description}</div>

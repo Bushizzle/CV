@@ -8,7 +8,6 @@ export type UserExperience = {
   company: string;
   site: string;
   position: string;
-  country: string;
   dates: string;
   description: string;
   keyNotes: string[];
