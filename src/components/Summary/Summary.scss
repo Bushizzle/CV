@@ -23,10 +23,14 @@
 .summary {
   color: var(--text-color-2);
   letter-spacing: -2%;
+}
 
+.pfa {
+  display: block;
   svg {
     display: block;
     margin: 64px auto;
+    max-width: 300px;
     @media screen and (max-width: 1000px) {
       display: none;
     }

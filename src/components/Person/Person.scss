@@ -10,33 +10,3 @@
   border-radius: 50%;
   object-fit: cover;
 }
-
-.buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-  @media screen and (max-width: 1000px) {
-    display: none;
-  }
-}
-
-.githubBtn,
-.pdfBtn {
-  background-color: rgba(75,75,255,.9);
-  border: none;
-  border-radius: 4px;
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 14px;
-  padding: 8px 16px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-}
-
-.githubBtn:hover,
-.pdfBtn:hover {
-  background-color: #2b2b87;
-}

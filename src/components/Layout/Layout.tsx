@@ -12,15 +12,14 @@ import styles from './Layout.scss';
 interface LayoutProps {
   data: UserData | null;
   theme: ValueOf<typeof THEMES>;
-  print: boolean;
 }
 
-export const Layout: FunctionComponent<LayoutProps> = ({ data, theme, print }) => {
+export const Layout: FunctionComponent<LayoutProps> = ({ data, theme }) => {
   return !data ? null : (
     <div className={styles.layout}>
       <ThemeToggle theme={theme} />
       <aside>
-        <Person imageUrl={data.photo} githubUrl={data.contacts.GitHub} print={print} />
+        <Person imageUrl={data.photo} />
         <Contacts contacts={data.contacts} />
         <Skills skills={data.skills} />
       </aside>

@@ -8,6 +8,7 @@
   display: inline-flex;
   width: 24px;
   height: 24px;
+  cursor: pointer;
   @media screen and (max-width: 1000px) {
     width: 28px;
     height: 28px;
@@ -50,6 +51,7 @@
 }
 
 .tel {
+  margin-top: 8px;
   color: var(--phone-text);
   letter-spacing: -2%;
   fill: var(--phone-text);

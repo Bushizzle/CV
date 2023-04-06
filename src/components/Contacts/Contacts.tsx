@@ -1,9 +1,10 @@
 import { FunctionComponent } from 'preact';
 import { UserContacts } from '../types';
+import { Print } from './Print';
 import styles from './Contacts.scss';
 
-import TelSVG from '/static/assets/icons/tel_icon.svg';
-import EmailSVG from '/static/assets/icons/email_icon.svg';
+import TelSVG from '/static/assets/icons/tel.svg';
+import EmailSVG from '/static/assets/icons/email.svg';
 import TelegramSVG from '/static/assets/icons/telegram.svg';
 import FacebookSVG from '/static/assets/icons/fb.svg';
 import LinkedinSVG from '/static/assets/icons/linkedin.svg';
@@ -29,6 +30,7 @@ export const Contacts: FunctionComponent<ContactsProps> = ({ contacts }) => {
         <a target="_blank" className={styles.contact} href={contacts.Facebook}>
           <FacebookSVG />
         </a>
+        <Print />
       </div>
       <div className={styles.buttons}>
         <a href={`mailto:${contacts.Email}`} className={`${styles.button} ${styles.email}`}>

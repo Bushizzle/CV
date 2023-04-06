@@ -10,7 +10,9 @@ export const Summary: FunctionComponent<SummaryProps> = ({ title, text }) => {
   return (
     <div className={styles.summary}>
       <h2 className={styles.name}>{title}</h2>
-      <PfaSVG />
+      <a className={styles.pfa} href="https://github.com/Bushizzle/CV" target="_blank">
+        <PfaSVG />
+      </a>
       <h2 className={styles.title}>Summary</h2>
       <div className={styles.text} dangerouslySetInnerHTML={{ __html: text }} />
     </div>

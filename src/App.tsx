@@ -10,11 +10,8 @@ interface AppProps {
 
 export const App: FunctionComponent<AppProps> = ({ theme }) => {
   const [data, setData] = useState(null);
-  const [print, setPrint] = useState(false);
   useEffect(() => {
     updateTheme(theme);
-    window.addEventListener('beforeprint', () => setPrint(true));
-    window.addEventListener('afterprint', () => setPrint(false));
     setTimeout(() => document.body.classList.add(styles.animated), 500);
   }, []);
   useEffect(() => {
@@ -22,5 +19,5 @@ export const App: FunctionComponent<AppProps> = ({ theme }) => {
       .then(response => response.json())
       .then(response => setData(response));
   }, []);
-  return <Layout data={data} print={print} theme={theme} />;
+  return <Layout data={data} theme={theme} />;
 };
