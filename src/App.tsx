@@ -12,6 +12,7 @@ export const App: FunctionComponent<AppProps> = ({ theme }) => {
   const [data, setData] = useState(null);
   useEffect(() => {
     updateTheme(theme);
+    // The following line is a workaround to avoid animation issues on the page when it is first loaded during nighttime
     setTimeout(() => document.body.classList.add(styles.animated), 500);
   }, []);
   useEffect(() => {

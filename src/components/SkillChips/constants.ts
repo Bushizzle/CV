@@ -24,3 +24,5 @@ export const RANDOM_QUOTE = [
   'Pushed my limits with this one',
   "I've come a long way with this skill",
 ];
+
+export const HINT_CLOSE_EVENT = 'close_hint';
