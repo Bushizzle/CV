@@ -1,7 +1,7 @@
 export const RANDOM_QUOTE = [
   'My top-notch skill',
   'That one was quite intense',
-  'Pretty impressive, right?',
+  'Pretty impressive, huh?',
   'Keep exploring',
   "This one's my favorite",
   'I truly excelled in this one',
