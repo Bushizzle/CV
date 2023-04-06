@@ -15,12 +15,13 @@ export type UserExperience = {
 };
 
 export type UserContacts = {
-  Tel?: string;
-  Telegram?: string;
-  Email?: string;
-  LinkedIn?: string;
-  GitHub?: string;
-  Facebook?: string;
+  Tel: string;
+  Telegram: string;
+  Email: string;
+  LinkedIn: string;
+  GitHub: string;
+  Facebook: string;
+  cv: string;
 };
 
 export type UserData = {
