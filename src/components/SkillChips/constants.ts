@@ -11,6 +11,7 @@ export const RANDOM_QUOTE = [
   'Could there be an easter egg?',
   'Consider hiring me',
   'Good pick',
+  'Nice click, thanks!',
   'Spent 1000 hours perfecting the basics',
   'Mastered it to perfection',
   "Can't get enough of this one",
