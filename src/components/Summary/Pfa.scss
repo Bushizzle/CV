@@ -1,0 +1,37 @@
+.pfa {
+	display: block;
+	margin: 64px auto;
+	width: 364px;
+	height: 160px;
+	position: relative;
+
+	@media screen and (max-width: 1000px) {
+		display: none;
+	}
+
+	svg {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 0;
+		transition: opacity ease var(--theme-animation-time);
+	}
+}
+
+body[data-theme='light'] {
+	.dark {
+		opacity: 0;
+	}
+	.light {
+		opacity: 1;
+	}
+}
+
+body[data-theme='dark'] {
+	.dark {
+		opacity: 1;
+	}
+	.light {
+		opacity: 0;
+	}
+}

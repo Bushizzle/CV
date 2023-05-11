@@ -24,7 +24,7 @@ export const Layout: FunctionComponent<LayoutProps> = ({ data, theme }) => {
         <Skills skills={data.skills} />
       </aside>
       <main>
-        <Summary title={data.name} text={data.summary} />
+        <Summary title={data.name} text={data.summary} github={data.contacts.GitHub} />
         <JobExperience experiences={data.experiences} />
       </main>
     </div>
