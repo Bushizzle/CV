@@ -1,5 +1,6 @@
 import { FunctionComponent } from 'preact';
 import { useState, useEffect } from 'preact/compat';
+import * as amplitude from '@amplitude/analytics-browser';
 import { Layout } from './components/Layout';
 import { THEMES, updateTheme } from './components/ThemeToggle';
 import styles from './App.scss';
@@ -18,7 +19,12 @@ export const App: FunctionComponent<AppProps> = ({ theme }) => {
   useEffect(() => {
     void fetch('data.json')
       .then(response => response.json())
-      .then(response => setData(response));
+      .then(response => {
+        setData(response);
+        amplitude.init(response.amplitude, undefined, {
+          defaultTracking: { sessions: true, pageViews: true, formInteractions: true, fileDownloads: true },
+        });
+      });
   }, []);
   return <Layout data={data} theme={theme} />;
 };

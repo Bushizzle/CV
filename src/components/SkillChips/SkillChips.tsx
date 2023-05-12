@@ -1,5 +1,6 @@
 import { FunctionComponent, createRef } from 'preact';
 import { useCallback, useEffect, useState } from 'preact/compat';
+import { trackEvent } from '../../analytics';
 import { RANDOM_QUOTE, HINT_CLOSE_EVENT } from './constants';
 import styles from './SkillChips.scss';
 
@@ -26,6 +27,7 @@ export const SkillChips: FunctionComponent<JobExperienceSkillProps> = ({ name })
       onClick={() => {
         window.dispatchEvent(new CustomEvent(HINT_CLOSE_EVENT));
         showHint(true);
+        trackEvent('Chips gag click');
         setTimeout(() => hideHint, 2500);
       }}
     >

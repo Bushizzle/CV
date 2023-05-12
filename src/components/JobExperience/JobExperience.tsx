@@ -1,6 +1,7 @@
 import { FunctionComponent } from 'preact';
+import { useCallback } from 'preact/compat';
+import { trackEvent } from '../../analytics';
 import { UserExperience } from '../types';
-
 import { SkillChips } from '../SkillChips';
 import styles from './JobExperience.scss';
 
@@ -8,14 +9,16 @@ interface JobExperienceProps {
   experiences: UserExperience[];
 }
 
-const CompanyName = ({ name, site }: { name: string; site?: string }) =>
-  site ? (
-    <a className={styles.company} href={site} target="_blank">
+const CompanyName = ({ name, site }: { name: string; site?: string }) => {
+  const track = useCallback(() => trackEvent(`${name} company link click`), [name]);
+  return site ? (
+    <a className={styles.company} href={site} target="_blank" onClick={track}>
       {name}
     </a>
   ) : (
     <span>{name}</span>
   );
+};
 
 export const JobExperience: FunctionComponent<JobExperienceProps> = ({ experiences }) => {
   return (

@@ -1,7 +1,8 @@
 import { FunctionComponent } from 'preact';
 import { useCallback, useState } from 'preact/compat';
-import styles from './ThemeToggle.scss';
 import { THEMES, updateTheme } from './index';
+import { trackEvent } from '../../analytics';
+import styles from './ThemeToggle.scss';
 
 export const ThemeToggle: FunctionComponent<{ theme: ValueOf<typeof THEMES> }> = ({ theme }) => {
   const [currentTheme, setTheme] = useState(theme);
@@ -9,6 +10,7 @@ export const ThemeToggle: FunctionComponent<{ theme: ValueOf<typeof THEMES> }> =
     const newTheme = currentTheme === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT;
     updateTheme(newTheme);
     setTheme(newTheme);
+    trackEvent('Theme toggle used');
   }, [currentTheme]);
 
   return (

@@ -1,6 +1,8 @@
 import { FunctionComponent } from 'preact';
 import { UserContacts } from '../types';
 import styles from './Contacts.scss';
+import { ContactsLink } from './ContactsLink';
+import { ContactsButton } from './ContactsButton';
 
 import TelSVG from '/static/assets/icons/tel.svg';
 import EmailSVG from '/static/assets/icons/email.svg';
@@ -18,29 +20,29 @@ export const Contacts: FunctionComponent<ContactsProps> = ({ contacts }) => {
   return (
     <>
       <div className={styles.contacts}>
-        <a target="_blank" className={styles.contact} href={contacts.Telegram}>
+        <ContactsLink href={contacts.Telegram} eventName={'Telegram'}>
           <TelegramSVG />
-        </a>
-        <a target="_blank" className={styles.contact} href={contacts.LinkedIn}>
+        </ContactsLink>
+        <ContactsLink href={contacts.LinkedIn} eventName={'Linkedin'}>
           <LinkedinSVG />
-        </a>
-        <a target="_blank" className={styles.contact} href={contacts.GitHub}>
+        </ContactsLink>
+        <ContactsLink href={contacts.GitHub} eventName={'Github'}>
           <GithubSVG />
-        </a>
-        <a target="_blank" className={styles.contact} href={contacts.Facebook}>
+        </ContactsLink>
+        <ContactsLink href={contacts.Facebook} eventName={'Facebook'}>
           <FacebookSVG />
-        </a>
-        <a download className={styles.contact} href={encodeURIComponent(contacts.cv)}>
+        </ContactsLink>
+        <ContactsLink href={encodeURIComponent(contacts.cv)} eventName={'PDF'} download={true}>
           <PdfSVG />
-        </a>
+        </ContactsLink>
       </div>
       <div className={styles.buttons}>
-        <a href={`mailto:${contacts.Email}`} className={`${styles.button} ${styles.email}`}>
+        <ContactsButton href={`mailto:${contacts.Email}`} className={styles.email} eventName={'Email'}>
           <EmailSVG /> {contacts.Email}
-        </a>
-        <a href={`tel:${contacts.Tel}`} className={`${styles.button} ${styles.tel}`}>
+        </ContactsButton>
+        <ContactsButton href={`tel:${contacts.Tel}`} className={styles.tel} eventName={'Tel'}>
           <TelSVG /> {contacts.Tel}
-        </a>
+        </ContactsButton>
       </div>
     </>
   );
