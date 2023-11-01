@@ -151,6 +151,30 @@
   ],
   "experiences": [
     {
+      "company": "Sperasoft",
+      "site": "https://sperasoft.com/",
+      "position": "Senior Fullstack Engineer",
+      "dates": "Aug 2023 - now",
+      "description": "Sperasoft, headquartered in Silicon Valley, is a top game co-development firm partnering with global publishers to produce high-quality titles. It's a subsidiary of Keywords Studios, a leading global provider of technical and creative services for the video game industry.",
+      "keyNotes": [
+        "Spearheaded the maintenance and enhancement of a client's Electron-based game launcher, introducing new features and refining the existing codebase.",
+        "Actively supported and managed multiple client websites, ensuring optimal performance and user experience.",
+        "Designed and developed impactful landing pages, contributing to improved user engagement.",
+        "Engaged actively in company meetups, taking the lead in curating and disseminating the company's frontend news feed."
+      ],
+      "skills": [
+        "Typescript",
+        "JavaScript",
+        "React",
+        "NodeJS",
+        "Electron",
+        "Figma",
+        "Git",
+        "styled-components",
+        "HTML"
+      ]
+    },
+    {
       "company": "Space307",
       "site": "https://space307.com/",
       "position": "Senior Software Engineer / Cross-Functional Product Expert",
