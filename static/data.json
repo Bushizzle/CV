@@ -1,234 +1,193 @@
 {
   "photo": "assets/photo-min.png",
   "name": "Alex Bushmanov (relocation, remote, on-site)",
-  "summary": "Experienced Frontend Developer with 8 years of expertise in JavaScript and modern frameworks like React, Angular, and Vue.js, collaborating effectively with cross-functional teams to deliver innovative solutions and staying up-to-date with industry trends.",
+  "summary": "Experienced Frontend Developer with 10 years of expertise in JavaScript and modern frameworks like React, Angular, and Vue.js, collaborating effectively with cross-functional teams to deliver innovative solutions and staying up-to-date with industry trends.",
   "skills": [
     {
-      "name": "Typescript",
+      "name": "TypeScript",
       "level": 100,
-      "emoji": "\uD83C\uDFCE"
+      "emoji": "🧩"
     },
     {
       "name": "JavaScript",
       "level": 100,
-      "emoji": "\uD83D\uDEB2"
-    },
-    {
-      "name": "Node",
-      "level": 100,
-      "emoji": "\uD83E\uDD16"
+      "emoji": "✨"
     },
     {
       "name": "React",
       "level": 100,
-      "emoji": "\uD83E\uDDEA"
+      "emoji": "⚛️"
+    },
+    {
+      "name": "Next.js",
+      "level": 100,
+      "emoji": "🌐"
+    },
+    {
+      "name": "Node.js",
+      "level": 100,
+      "emoji": "🛠️"
+    },
+    {
+      "name": "Go",
+      "level": 80,
+      "emoji": "🐹"
+    },
+    {
+      "name": "GraphQL",
+      "level": 90,
+      "emoji": "🕸️"
+    },
+    {
+      "name": "MongoDB",
+      "level": 80,
+      "emoji": "🌱"
+    },
+    {
+      "name": "Terraform",
+      "level": 80,
+      "emoji": "🪴"
     },
     {
       "name": "AWS",
       "level": 90,
-      "emoji": "☁"
+      "emoji": "☁️"
     },
     {
-      "name": "Developer Relations",
-      "level": 90,
-      "emoji": "\uD83D\uDCE2"
+      "name": "GCP",
+      "level": 80,
+      "emoji": "🛰️"
     },
     {
-      "name": "Git",
-      "level": 100,
-      "emoji": "\uD83D\uDCAC"
+      "name": "Drone CI",
+      "level": 70,
+      "emoji": "🚁"
     },
     {
-      "name": "NextJS",
-      "level": 100,
-      "emoji": "\uD83D\uDEF3"
+      "name": "Datadog",
+      "level": 70,
+      "emoji": "🐶"
     },
     {
       "name": "SCSS",
       "level": 100,
-      "emoji": "\uD83D\uDC85"
+      "emoji": "🎨"
+    },
+    {
+      "name": "Git",
+      "level": 100,
+      "emoji": "🔧"
     },
     {
       "name": "Figma",
       "level": 80,
-      "emoji": "\uD83C\uDFD6"
+      "emoji": "🖌️"
     },
     {
-      "name": "GraphQL",
-      "level": 100,
-      "emoji": "\uD83D\uDC19"
-    },
-    {
-      "name": "ZEIT Now",
-      "level": 80,
-      "emoji": "\uD83D\uDE9C"
-    },
-    {
-      "name": "Algolia",
-      "level": 50,
-      "emoji": "\uD83D\uDD0D"
-    },
-    {
-      "name": "jQuery",
-      "level": 100,
-      "emoji": "\uD83E\uDDDF"
-    },
-    {
-      "name": "Jade",
-      "level": 80,
-      "emoji": "\uD83E\uDE9A"
-    },
-    {
-      "name": "HTML",
-      "level": 100,
-      "emoji": "\uD83E\uDEB5"
+      "name": "Developer Relations",
+      "level": 90,
+      "emoji": "📣"
     },
     {
       "name": "Websockets",
       "level": 100,
-      "emoji": "\uD83D\uDD03"
-    },
-    {
-      "name": "Vue 2",
-      "level": 80,
-      "emoji": "\uD83D\uDEF8"
-    },
-    {
-      "name": "Project Management",
-      "level": 70,
-      "emoji": "♥"
-    },
-    {
-      "name": "prismic.io",
-      "level": 100,
-      "emoji": "\uD83E\uDD13"
-    },
-    {
-      "name": "GatsbyJS",
-      "level": 70,
-      "emoji": "\uD83C\uDF78"
-    },
-    {
-      "name": "mongoDB",
-      "level": 80,
-      "emoji": "\uD83C\uDF43"
-    },
-    {
-      "name": "canvas",
-      "level": 100,
-      "emoji": "\uD83D\uDD8C"
-    },
-    {
-      "name": "SVG",
-      "level": 100,
-      "emoji": "\uD83D\uDCD0"
-    },
-    {
-      "name": "threeJS",
-      "level": 50,
-      "emoji": "\uD83C\uDFAE"
-    },
-    {
-      "name": "webGL",
-      "level": 50,
-      "emoji": "\uD83D\uDD2E"
-    },
-    {
-      "name": "Redis",
-      "level": 30,
-      "emoji": "\uD83E\uDD55"
-    },
-    {
-      "name": "KnockoutJS",
-      "level": 100,
-      "emoji": "\uD83E\uDD4A"
-    },
-    {
-      "name": "koaJS",
-      "level": 90,
-      "emoji": "\uD83D\uDC28"
+      "emoji": "🔄"
     }
   ],
   "experiences": [
     {
+      "company": "RE-Partners",
+      "site": "https://www.re-partners.com/",
+      "position": "Senior Fullstack Engineer",
+      "dates": "Jan 2024 – Present",
+      "description": "Embedded in The New York Times messaging team through RE-Partners. Focused on audience segmentation, infrastructure reliability, and developer mentoring.",
+      "keyNotes": [
+        "Built and maintained scalable messaging tools for audience segmentation, subscription tracking, and delivery monitoring at NYT.",
+        "Improved infrastructure reliability and monitoring with GCP, Datadog, and Terraform.",
+        "Prototyped new messaging features and delivery systems.",
+        "Mentored engineers and led interview training sessions at RE-Partners.",
+        "Conducted 100+ interviews for senior/staff-level roles (e.g. Citibank, Gymshark).",
+        "Fostered internal engagement through async tech quizzes and team events."
+      ],
+      "skills": [
+        "React",
+        "TypeScript",
+        "Go",
+        "GCP",
+        "Terraform",
+        "AWS",
+        "Drone CI",
+        "Datadog"
+      ]
+    },
+    {
       "company": "Sperasoft",
       "site": "https://sperasoft.com/",
       "position": "Senior Fullstack Engineer",
-      "dates": "Aug 2023 - now",
-      "description": "Sperasoft, headquartered in Silicon Valley, is a top game co-development firm partnering with global publishers to produce high-quality titles. It's a subsidiary of Keywords Studios, a leading global provider of technical and creative services for the video game industry.",
+      "dates": "Aug 2023 – Dec 2023",
+      "description": "Worked on a high-performance game launcher for Jagex’s RuneScape franchise. Focused on UI responsiveness and cross-platform stability.",
       "keyNotes": [
-        "Spearheaded the maintenance and enhancement of a client's Electron-based game launcher, introducing new features and refining the existing codebase.",
-        "Actively supported and managed multiple client websites, ensuring optimal performance and user experience.",
-        "Designed and developed impactful landing pages, contributing to improved user engagement.",
-        "Engaged actively in company meetups, taking the lead in curating and disseminating the company's frontend news feed."
+        "Developed and optimized a cross-platform desktop launcher using Electron and React Native.",
+        "Collaborated with game backend and distribution teams for seamless release integration.",
+        "Ensured high UI performance across Windows/macOS platforms.",
+        "Shipped critical updates and streamlined bug reporting workflow."
       ],
       "skills": [
-        "Typescript",
+        "TypeScript",
         "JavaScript",
         "React",
-        "NodeJS",
+        "Node.js",
         "Electron",
-        "Figma",
-        "Git",
         "styled-components",
-        "HTML"
+        "HTML",
+        "Figma",
+        "Git"
       ]
     },
     {
       "company": "Space307",
       "site": "https://space307.com/",
       "position": "Senior Software Engineer / Cross-Functional Product Expert",
-      "dates": "Aug 2021 - Feb 2023",
-      "description": "Space307 is a product-oriented IT company, whose flagship project is a trading platform for retail brokers. The platform currently has over 60 million users worldwide.",
+      "dates": "Aug 2021 – Feb 2023",
+      "description": "Led key frontend and infrastructure initiatives for a large-scale trading platform with 60M+ users.",
       "keyNotes": [
-        "Developed AWS system with decentralized caching for 500,000 daily requests",
-        "Optimized code base, and removed JQuery, which helped to achieve 15% application size reduction",
-        "Established development processes, including review & approval flow and DoD/DoR documents, which 100% shortened backend/frontend tech difference",
-        "Rewrote frontend onboarding docs and created tutorials for internal tools",
-        "Authored articles to promote HR brand and improve colleagues' writing",
-        "Launched a news feed for senior frontend developers (1300+ subscribers) as part of DevRel",
-        "Implemented custom analytics solution by researching Amplitude performance",
-        "Developed product features, including fast chart API with FlatBuffers, market component rebuild, and new experience system integration"
+        "Engineered decentralized caching for AWS architecture serving 500K+ daily requests.",
+        "Refactored legacy codebase, eliminating jQuery and reducing bundle size by 15%.",
+        "Established unified dev processes, onboarding guides, and review workflows.",
+        "Launched a popular DevRel newsletter for frontend engineers (1300+ subscribers).",
+        "Integrated a custom analytics system to replace Amplitude for cost efficiency.",
+        "Prototyped high-performance charting tools using FlatBuffers."
       ],
       "skills": [
-        "Typescript",
+        "TypeScript",
         "JavaScript",
         "React",
+        "Node.js",
         "AWS",
         "Developer Relations",
-        "NodeJS",
-        "Figma",
+        "MongoDB",
         "Git",
-        "PCSS",
-        "jQuery",
-        "HTML",
-        "Websockets",
-        "GatsbyJS",
-        "mongoDB",
-        "canvas",
-        "SVG",
-        "webGL"
+        "Figma"
       ]
     },
     {
       "company": "KMS Lighthouse",
       "site": "https://www.kmslh.com/",
       "position": "Senior Software Engineer / Team Leader",
-      "dates": "Nov 2020 - Jun 2021",
-      "description": "KMS Lighthouse is a knowledge management system used by businesses worldwide to create, store, share, and analyze information.",
+      "dates": "Nov 2020 – Jun 2021",
+      "description": "Led a cross-functional team to improve a knowledge management platform with AI search capabilities.",
       "keyNotes": [
-        "Implemented an AI-driven search engine in an existing KMS (Knowledge Management System) for enhanced product functionality",
-        "Managed a team of 5 members, including frontend, backend, and QA developers",
-        "Enhanced collaboration processes within teams and between development and business units"
+        "Implemented AI-powered search in the KMS used by large enterprise clients.",
+        "Managed a distributed team of frontend, backend, and QA engineers.",
+        "Improved delivery cadence by streamlining collaboration between tech and business."
       ],
       "skills": [
-        "Typescript",
+        "TypeScript",
         "React",
+        "Node.js",
         "SCSS",
-        "NodeJS",
-        "Git",
-        "Project Management",
         "Figma",
+        "Git",
         "Jira"
       ]
     },
@@ -236,109 +195,89 @@
       "company": "Distillery",
       "site": "https://distillery.com/",
       "position": "Senior Software Engineer / Team Leader",
-      "dates": "Feb 2019 - Nov 2020",
-      "description": "Distillery is an IT outsource company that specializes in custom software development, digital product design, and startup incubation for clients in various industries worldwide.",
+      "dates": "Feb 2019 – Nov 2020",
+      "description": "Led international projects across fintech and e-commerce. Built scalable web apps and internal tooling.",
       "keyNotes": [
-        "Migrated 3 customer websites from the US to new technology stacks",
-        "Led a team of 6 members working on these tasks (Frontend + Backend + QA + Project Manager)",
-        "Conducted numerous interviews for Middle/Senior Frontend Engineers in Russian and English for offices in Argentina, Mexico, and Russia",
-        "Worked as a guest specialist at one of Russia's largest banks, developing new features for their mobile website version",
-        "Improved and optimized functionality of the company's internal tools"
+        "Led frontend/backend delivery for 3 client website migrations to modern tech stacks.",
+        "Developed mobile web features for a major Russian bank as guest engineer.",
+        "Improved interview pipeline for LatAm/Russian hires through technical leadership.",
+        "Owned architecture and delivery of internal management tools."
       ],
       "skills": [
-        "Typescript",
-        "JavaScript",
-        "NodeJS",
+        "TypeScript",
         "React",
-        "NextJS",
-        "SCSS",
-        "Git",
-        "styled-components",
+        "Next.js",
+        "Node.js",
         "GraphQL",
-        "ZEIT Now",
-        "Algolia",
+        "Gatsby",
+        "MongoDB",
         "Websockets",
-        "Project Management",
-        "NextJs",
-        "prismic.io",
-        "GatsbyJS",
-        "mongoDB",
-        "SVG",
-        "Redis",
-        "WebRTC"
+        "SCSS"
       ]
     },
     {
       "company": "EXEC LOGIC",
       "position": "Full Stack Developer",
-      "dates": "Jun 2016 - Dec 2018",
-      "description": "EXEC LOGIC is a startup that develops a lightweight and efficient roof construction application to recommend materials and calculate the best material prices using advanced algorithms and data analytics.",
+      "dates": "Jun 2016 – Dec 2018",
+      "description": "Sole developer for a geometry-heavy roofing estimation platform. Built cost optimization tools from scratch.",
       "keyNotes": [
-        "Designed and developed a high-performance frontend application for roof construction using various materials",
-        "Utilized NodeJS expertise to replace the old backend and significantly reduce roof calculation time from 2 seconds to 50 milliseconds",
-        "Implemented advanced algorithms such as ray tracing in geometry to create multiple drawing and calculation modes, ahead of the mainstream adoption of these techniques",
-        "Enhanced the efficiency and cost-effectiveness of the roof building process by optimizing the application's performance and functionality"
+        "Built a high-performance frontend app with real-time geometric calculations.",
+        "Rewrote backend to reduce pricing algorithm latency from 2s to 50ms.",
+        "Implemented custom ray-tracing logic for 3D roof layouts."
       ],
       "skills": [
         "JavaScript",
-        "NodeJS",
-        "mongoDB",
-        "canvas",
-        "LESS",
-        "HTML",
+        "Node.js",
+        "MongoDB",
+        "Canvas",
         "Git",
-        "Websockets",
         "SVG",
-        "webGL",
-        "KnockoutJS"
+        "WebGL"
       ]
     },
     {
       "company": "AdWatch Isobar",
       "site": "https://adwatch.ru/",
       "position": "Frontend Developer",
-      "dates": "Jul 2014 - Nov 2015",
-      "description": "AdWatch Isobar is a digital advertising agency that provides services in strategy, design, media planning, and data analytics to clients in various industries worldwide.",
+      "dates": "Jul 2014 – Nov 2015",
+      "description": "Developed promotional websites and landing pages for global CPG brands.",
       "keyNotes": [
-        "Created numerous websites and landing pages for well-known companies such as Danone, Toffee, Nestle, Colgate-Palmolive, and others",
-        "Utilized HTML, CSS, and JavaScript to bring designs to life and ensure a responsive experience for users",
-        "Maintained a high level of quality control and attention to detail, delivering polished and professional final products",
-        "Collaborated with clients and team members to ensure projects were completed on time and to the satisfaction of all stakeholders."
+        "Built fast, responsive websites for clients like Nestlé, Danone, Colgate.",
+        "Transformed Figma designs into pixel-perfect cross-browser code.",
+        "Worked under tight deadlines while maintaining high quality standards."
       ],
       "skills": [
         "HTML",
+        "CSS",
         "JavaScript",
         "jQuery",
-        "CSS",
-        "LESS",
-        "SCSS",
         "Git",
+        "SCSS",
         "Jade",
-        "canvas",
         "SVG"
       ]
     },
     {
       "company": "Self-Employed",
       "position": "Junior Frontend Developer",
-      "dates": "Jan 2012 - Jun 2014",
-      "description": "Self-taught in programming, focusing on C++ and web development. Successfully completed freelance projects, including landing pages, with a long-term Moscow client.",
+      "dates": "Jan 2012 – Jun 2014",
+      "description": "Freelancer and self-taught engineer focused on small business landing pages and learning web technologies.",
       "keyNotes": [
-        "Successful freelance experience, including a long-term Moscow client and various projects, mostly creating landing pages.",
-        "Self-taught in C++ and web development (HTML, CSS, JavaScript).",
-        "Committed to continuous learning and skill improvement in web development.",
-        "Diverse background in photography, journalism, and advertising."
+        "Built 10+ landing pages and CMS themes for local businesses.",
+        "Self-learned modern web stack through projects and experimentation.",
+        "Background in media and visual storytelling shaped UX approach."
       ],
       "skills": [
-        "CSS",
         "HTML",
-        "webGL",
-        "Git"
+        "CSS",
+        "JavaScript",
+        "Git",
+        "WebGL"
       ]
     }
   ],
   "contacts": {
-    "Tel": "+995-595-00-2584",
+    "Tel": "+34-695-443-043",
     "Email": "4lex.bu@gmail.com",
     "Telegram": "https://t.me/bushizzle",
     "LinkedIn": "https://www.linkedin.com/in/a-bu/",
