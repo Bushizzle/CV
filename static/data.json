@@ -24,7 +24,7 @@
       "emoji": "🌐"
     },
     {
-      "name": "Node.js",
+      "name": "NodeJS",
       "level": 100,
       "emoji": "🛠️"
     },
@@ -136,12 +136,10 @@
         "TypeScript",
         "JavaScript",
         "React",
-        "Node.js",
+        "NodeJS",
         "Electron",
         "styled-components",
-        "HTML",
-        "Figma",
-        "Git"
+        "Figma"
       ]
     },
     {
@@ -162,11 +160,10 @@
         "TypeScript",
         "JavaScript",
         "React",
-        "Node.js",
+        "NodeJS",
         "AWS",
         "Developer Relations",
         "MongoDB",
-        "Git",
         "Figma"
       ]
     },
@@ -184,10 +181,9 @@
       "skills": [
         "TypeScript",
         "React",
-        "Node.js",
+        "NodeJS",
         "SCSS",
         "Figma",
-        "Git",
         "Jira"
       ]
     },
@@ -207,7 +203,7 @@
         "TypeScript",
         "React",
         "Next.js",
-        "Node.js",
+        "NodeJS",
         "GraphQL",
         "Gatsby",
         "MongoDB",
@@ -227,10 +223,9 @@
       ],
       "skills": [
         "JavaScript",
-        "Node.js",
+        "NodeJS",
         "MongoDB",
         "Canvas",
-        "Git",
         "SVG",
         "WebGL"
       ]
@@ -251,7 +246,6 @@
         "CSS",
         "JavaScript",
         "jQuery",
-        "Git",
         "SCSS",
         "Jade",
         "SVG"
@@ -271,7 +265,6 @@
         "HTML",
         "CSS",
         "JavaScript",
-        "Git",
         "WebGL"
       ]
     }
